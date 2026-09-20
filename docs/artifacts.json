@@ -4,7 +4,7 @@
   "notes": [
     "Source labels are provenance identifiers, not runtime dependencies.",
     "Source hashes refer to original bytes. Relocated JSON/YAML/model paths change packaged hashes.",
-    "Motion arrays, selected checkpoint binaries, and requested video bytes are preserved.",
+    "Motion arrays and selected checkpoint binaries are preserved. Demo videos are re-encoded first-six-second excerpts; original source hashes are retained.",
     "No new redistribution rights are asserted."
   ],
   "artifacts": [
@@ -1689,19 +1689,20 @@
       "sha256": "22c41742a43d980f19424344f52b49bfc8d6711425fb59b19003b0e08998aef3"
     },
     {
-      "path": "media/k1_dance_front_uhd.mp4",
-      "bytes": 6123084,
-      "sha256": "190fd5fe6d8d18371e7963982a3bd7c53205974a89f26e6ecae3bf087183a9bf",
+      "path": "media/k1_dance_front_uhd_6s.mp4",
+      "bytes": 2805832,
+      "sha256": "2dcdb4788e0e67b3698e41aa2dd4198b7e601bfea4a9cbed21f89f855f7b37b5",
       "source_label": "BoosterTrain/logs/rsl_rl/k1_dance_8/2026-08-20_20-30-21_l20_gpu1_resume/videos/play_uhd_front/rl-video-step-8.mp4",
       "source_sha256": "190fd5fe6d8d18371e7963982a3bd7c53205974a89f26e6ecae3bf087183a9bf",
-      "unchanged_bytes": true,
+      "unchanged_bytes": false,
       "video": {
         "width": 3840,
         "height": 2160,
         "avg_frame_rate": "50/1",
-        "duration": "9.980000",
-        "nb_frames": "499"
-      }
+        "duration": "6.000000",
+        "nb_frames": "300"
+      },
+      "transformation": "First 6 seconds; H.264 CRF 26, yuv420p, MP4 faststart; no speed change."
     },
     {
       "path": "media/mos_walk_front.jpg",
@@ -1709,19 +1710,20 @@
       "sha256": "6d1a31a5caf4da8e27c561e2ffc6a4e6f657c9f06c1aebef63bcc95f36691dbb"
     },
     {
-      "path": "media/mos_walk_front_uhd_20s.mp4",
-      "bytes": 23965408,
-      "sha256": "bd8c2b1582f26a9d3b6ee1f9f492bde7ab3ffd478a00dcce2305bd4029427027",
+      "path": "media/mos_walk_front_uhd_6s.mp4",
+      "bytes": 5267293,
+      "sha256": "b42504c4cf19149f28fbda000dc3993a08ee57bc8253eac7e7b31ede2344a3d2",
       "source_label": "BoosterTrain/videos/mos_walk_rigid_v2_front_uhd_20s_20260920_154057/rl-video-step-8.mp4",
       "source_sha256": "bd8c2b1582f26a9d3b6ee1f9f492bde7ab3ffd478a00dcce2305bd4029427027",
-      "unchanged_bytes": true,
+      "unchanged_bytes": false,
       "video": {
         "width": 3840,
         "height": 2160,
         "avg_frame_rate": "50/1",
-        "duration": "19.980000",
-        "nb_frames": "999"
-      }
+        "duration": "6.000000",
+        "nb_frames": "300"
+      },
+      "transformation": "First 6 seconds; H.264 CRF 26, yuv420p, MP4 faststart; no speed change."
     }
   ]
 }

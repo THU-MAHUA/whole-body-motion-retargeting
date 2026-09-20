@@ -38,7 +38,11 @@
   "videos": {
     "mos_full_decode_passed": true,
     "k1_full_decode_passed": true,
-    "requested_original_bytes_preserved": true
+    "requested_original_bytes_preserved": false,
+    "published_excerpt_seconds": 6,
+    "published_frames_per_video": 300,
+    "published_resolution": [3840, 2160],
+    "original_project_recordings_unchanged": true
   },
   "publication": {
     "uploaded": true,

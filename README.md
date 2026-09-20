@@ -7,8 +7,8 @@ By **MAAROUF MOHAMED**.
 
 | MOS rigid-torso walking | Booster K1 dance |
 | --- | --- |
-| [![MOS walking](media/mos_walk_front.jpg)](media/mos_walk_front_uhd_20s.mp4) | [![K1 dance](media/k1_dance_front.jpg)](media/k1_dance_front_uhd.mp4) |
-| Front view, UHD, approximately 20 seconds | Front view, UHD, approximately 10 seconds |
+| [![MOS walking](media/mos_walk_front.jpg)](https://raw.githubusercontent.com/THU-MAHUA/whole-body-motion-retargeting/main/media/mos_walk_front_uhd_6s.mp4) | [![K1 dance](media/k1_dance_front.jpg)](https://raw.githubusercontent.com/THU-MAHUA/whole-body-motion-retargeting/main/media/k1_dance_front_uhd_6s.mp4) |
+| Front view, UHD, first 6 seconds | Front view, UHD, first 6 seconds |
 
 Click a thumbnail to open its video. These are simulation demonstrations,
 not hardware validation.

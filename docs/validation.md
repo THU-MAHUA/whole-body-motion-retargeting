@@ -94,10 +94,13 @@ MOS: latest completed checkpoint write, `model_24000.pt`, from
 The binary itself loads and reports iteration 24000. It is not relabeled as
 a completed 30,000-iteration policy.
 
-Both requested demo videos are copied byte-for-byte. MOS is 3840x2160,
-50 FPS, 999 frames (19.98 seconds); K1 is 3840x2160, 50 FPS, 499 frames
-(9.98 seconds). The K1 video came from the requested run directory, but its
-exact recording-checkpoint selection was not independently established.
+The two demo videos were initially copied byte-for-byte. At the maintainer's
+request, each published video was replaced with its first 6 seconds, re-encoded
+as H.264 with a streaming-friendly MP4 header. Both retain 3840x2160 resolution
+and 50 FPS (300 frames). Full-length recordings in the original projects were
+not modified. README thumbnails link directly to the MP4s, bypassing GitHub's
+large-file preview page. The K1 video came from the requested run directory,
+but its exact recording-checkpoint selection was not independently established.
 
 ## Not Established
 
