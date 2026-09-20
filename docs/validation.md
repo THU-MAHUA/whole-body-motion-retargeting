@@ -98,8 +98,10 @@ The two demo videos were initially copied byte-for-byte. At the maintainer's
 request, each published video was replaced with its first 6 seconds, re-encoded
 as H.264 with a streaming-friendly MP4 header. Both retain 3840x2160 resolution
 and 50 FPS (300 frames). Full-length recordings in the original projects were
-not modified. README thumbnails link directly to the MP4s, bypassing GitHub's
-large-file preview page. The K1 video came from the requested run directory,
+not modified. The README uses GitHub-hosted video attachments for inline
+playback, with the MP4 copies retained in `media/` for offline use. Both public
+attachments were downloaded and their SHA-256 checksums matched the repository
+copies. The K1 video came from the requested run directory,
 but its exact recording-checkpoint selection was not independently established.
 
 ## Not Established

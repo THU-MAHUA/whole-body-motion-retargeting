@@ -5,13 +5,16 @@ GMR, robot-reference conversion, and Isaac Lab reinforcement learning.
 
 By **MAAROUF MOHAMED**.
 
-| MOS rigid-torso walking | Booster K1 dance |
-| --- | --- |
-| [![MOS walking](media/mos_walk_front.jpg)](https://raw.githubusercontent.com/THU-MAHUA/whole-body-motion-retargeting/main/media/mos_walk_front_uhd_6s.mp4) | [![K1 dance](media/k1_dance_front.jpg)](https://raw.githubusercontent.com/THU-MAHUA/whole-body-motion-retargeting/main/media/k1_dance_front_uhd_6s.mp4) |
-| Front view, UHD, first 6 seconds | Front view, UHD, first 6 seconds |
+### MOS Rigid-Torso Walking
 
-Click a thumbnail to open its video. These are simulation demonstrations,
-not hardware validation.
+https://github.com/user-attachments/assets/c31b6e10-574a-4e42-9800-a6a9cb7f0ea1
+
+### Booster K1 Dance
+
+https://github.com/user-attachments/assets/d33f099b-06e0-4be1-9f1f-02677e313130
+
+Both videos show the first 6 seconds from the front, in UHD.
+These are simulation demonstrations, not hardware validation.
 
 ## Start Here
 
