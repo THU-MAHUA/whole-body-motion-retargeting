@@ -28,26 +28,25 @@ contact constraints, torso adaptation, robot/task bindings, motion conversion,
 camera/video controls, and packaging portability. Inherited authorship and
 licenses remain applicable. See [citations](docs/citations.bib).
 
-## Asset Permissions: Public Upload Blocked Pending Confirmation
+## Asset Permissions and Provenance
 
-The local package intentionally contains the requested generated references,
-checkpoints, and videos, but **has not established redistribution clearance**
-for all of them:
+On September 20, 2026, the maintainer confirmed permission to publicly
+distribute the MOS models and the included motion-derived references,
+checkpoints, and videos. Publication relies on that confirmation; supporting
+permission documents were not independently reviewed during packaging.
+This confirmation does not replace upstream terms or grant new rights to users.
 
 1. ACCAD/CMU locomotion came through AMASS-style fitted recordings.
    [AMASS terms](https://amass.is.tue.mpg.de/license.html) restrict redistribution
    and modification of the dataset. Removing raw recordings alone does not
-   resolve whether these derived robot trajectories may be published. Obtain
-   applicable permission/confirmation for the generated references and their
-   derived weights/media. This is an unresolved provenance question, not a
-   legal conclusion about every learned model.
-2. The original `dance_8_clip1` recording's rights/provenance must be confirmed
-   for the dance reference, checkpoint, and video.
-3. MOS URDF/STL ownership and public redistribution authorization must be
-   confirmed. The supplied files did not provide a separate asset license.
+   resolve whether these derived robot trajectories may be published.
+   The maintainer's confirmation covers the included generated references
+   and their derived weights/media; no source-dataset rights are granted here.
+2. The maintainer confirmed permission for the `dance_8_clip1` derived
+   reference, checkpoint, and video. The original recording is not bundled.
+3. The maintainer confirmed public redistribution authorization for the MOS
+   URDF/STL files. The supplied files did not provide a separate asset license.
 
 No AMASS/ACCAD/CMU source datasets or body-model weights are bundled. Their
-absence is not a representation that all derivative rights have been granted.
-Do not publish this artifact-containing snapshot until these issues are
-resolved. A code-only release would be a different scope, not silently
-substituted for the requested repository.
+absence alone does not establish derivative rights. No new blanket license
+is added for models, generated artifacts, or original contributions.

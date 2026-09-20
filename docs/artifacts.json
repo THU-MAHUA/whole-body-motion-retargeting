@@ -1,6 +1,6 @@
 {
   "packaged_on": "2026-09-20",
-  "status": "local_only_pending_asset_permissions",
+  "status": "maintainer_confirmed_public_redistribution_permission",
   "notes": [
     "Source labels are provenance identifiers, not runtime dependencies.",
     "Source hashes refer to original bytes. Relocated JSON/YAML/model paths change packaged hashes.",

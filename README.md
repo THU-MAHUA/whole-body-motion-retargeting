@@ -5,8 +5,8 @@ GMR, robot-reference conversion, and Isaac Lab reinforcement learning.
 
 By **MAAROUF MOHAMED**.
 
-**Release status:** prepared locally; public upload is pending the asset and
-derived-motion permissions listed in [NOTICE](NOTICE.md).
+**Asset permissions:** the maintainer confirmed public redistribution permission
+on September 20, 2026. See [NOTICE](NOTICE.md) for provenance and upstream terms.
 
 | MOS rigid-torso walking | Booster K1 dance |
 | --- | --- |

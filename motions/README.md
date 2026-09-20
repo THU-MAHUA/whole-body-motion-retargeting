@@ -50,4 +50,5 @@ recordings and body models; preview/training of included robot references does
 not. Removing human-source files does not establish new redistribution rights
 for derived motions, learned weights, or videos.
 
-Public release is pending the permissions described in [NOTICE](../NOTICE.md).
+The maintainer confirmed public redistribution permission on September 20,
+2026; see [NOTICE](../NOTICE.md) for the scope and remaining upstream terms.

@@ -46,10 +46,12 @@ vendored code, model files, or license text was performed.
 ## Publication Status
 
 Local Git history uses the requested repository-local author identity and
-has the requested GitHub remote configured. No public push was performed.
-An HTTPS `git push --dry-run` failed because no username/credentials were
-available with terminal prompts disabled. Authentication and the asset
-permissions in [NOTICE](../NOTICE.md) must both be resolved before upload.
+has the requested GitHub remote configured. The initial HTTPS
+`git push --dry-run` failed because credentials were unavailable.
+On September 20, 2026, the maintainer subsequently completed an authenticated
+dry-run and confirmed public redistribution permission for the included assets.
+See [NOTICE](../NOTICE.md) for the scope of this confirmation. Publication
+status is recorded in `packaging-validation.json`.
 
 ## Reproduce
 
@@ -97,7 +99,7 @@ exact recording-checkpoint selection was not independently established.
 ## Not Established
 
 A clean installation of drivers/Isaac on another physical machine, long-horizon
-robustness, deterministic learning, sim-to-real performance, asset
-redistribution permission, or hardware safety. First-run simulator resource
+robustness, deterministic learning, sim-to-real performance, independent review
+of asset permission documents, or hardware safety. First-run simulator resource
 downloads and version-specific installation remain external prerequisites.
 See [NOTICE](../NOTICE.md) before public upload.

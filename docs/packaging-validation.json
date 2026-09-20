@@ -42,8 +42,8 @@
   },
   "publication": {
     "uploaded": false,
-    "asset_permissions": "unresolved; see NOTICE.md",
-    "git_https_dry_run": "failed: credentials unavailable with terminal prompts disabled"
+    "asset_permissions": "maintainer confirmed on 2026-09-20; see NOTICE.md",
+    "git_https_dry_run": "maintainer reported successful authenticated dry-run on 2026-09-20"
   },
   "mos_reconversion_max_abs_difference": {
     "fps": 0.0,
