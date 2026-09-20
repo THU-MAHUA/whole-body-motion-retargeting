@@ -24,6 +24,27 @@
   "original_files_hash_checked_unchanged": 339,
   "human_recordings_included": false,
   "full_training_started": false,
+  "relocated_checkout": {
+    "editable_install_gmr": true,
+    "editable_install_isaac": true,
+    "unit_tests_passed": 42,
+    "artifact_checkpoint_checks_passed": 28,
+    "manifest_checksums_passed": true,
+    "project_imports_resolve_within_clone": true,
+    "mos_playback_steps": 24,
+    "k1_playback_steps": 24,
+    "clean_machine_dependency_install_tested": false
+  },
+  "videos": {
+    "mos_full_decode_passed": true,
+    "k1_full_decode_passed": true,
+    "requested_original_bytes_preserved": true
+  },
+  "publication": {
+    "uploaded": false,
+    "asset_permissions": "unresolved; see NOTICE.md",
+    "git_https_dry_run": "failed: credentials unavailable with terminal prompts disabled"
+  },
   "mos_reconversion_max_abs_difference": {
     "fps": 0.0,
     "joint_pos": 0.0,
@@ -34,8 +55,8 @@
     "body_ang_vel_w": 0.0
   },
   "staged_audit": {
-    "files": 311,
-    "bytes": 207544731,
+    "files": 312,
+    "bytes_at_initial_audit": 207545892,
     "largest_file": "media/mos_walk_front_uhd_20s.mp4",
     "no_file_over_100_MiB": true,
     "local_markdown_links_resolve": true,

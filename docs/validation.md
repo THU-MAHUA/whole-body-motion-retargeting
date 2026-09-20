@@ -26,10 +26,30 @@ runtime dependencies.
   flat-ground playback, original anchors, 0.02-second control interval, and
   `tail_len=0`.
 
-The following final packaging checks are recorded in the machine-readable
-validation summary once complete: relocated-checkout imports and tests,
-TensorBoard finite scalars, video decoding, artifact checksums, and staged-file
-audit. See `packaging-validation.json`.
+- An independent local Git clone passed editable installation in both
+  disposable environments, all 42 tests, and the 28 artifact/checkpoint checks
+  including manifest checksums. Project imports and resources resolved from
+  the relocated checkout. Both supplied policies also passed 24-step
+  one-environment rollouts there.
+- All 74 TensorBoard scalar values from each two-iteration training test
+  were finite. MOS re-conversion arrays matched the included NPZ exactly.
+- Both requested videos decoded completely with no FFmpeg errors.
+- The tracked-file audit found no human-source recordings, old absolute
+  workspace paths, credential-pattern matches, or files over 100 MiB.
+  Local Markdown links resolved. Hash checks confirmed 339 original source
+  files remained unchanged.
+
+See `packaging-validation.json` for the machine-readable summary. Inherited
+upstream files retain their original whitespace; no blanket reformatting of
+vendored code, model files, or license text was performed.
+
+## Publication Status
+
+Local Git history uses the requested repository-local author identity and
+has the requested GitHub remote configured. No public push was performed.
+An HTTPS `git push --dry-run` failed because no username/credentials were
+available with terminal prompts disabled. Authentication and the asset
+permissions in [NOTICE](../NOTICE.md) must both be resolved before upload.
 
 ## Reproduce
 
