@@ -1,0 +1,70 @@
+{
+  "baseline": "motions/gmr/mos_flat_feet/walk.pkl",
+  "candidate": "motions/gmr/mos_rigid_torso/walk_v2.pkl",
+  "contact_schedule_identical": true,
+  "frames": 228,
+  "fps": 29.901639344262296,
+  "yaw_residual_metric": "RMS of unwrapped root yaw minus Gaussian trend (sigma 0.35 s).",
+  "status": "kinematic_preview_only_not_approved_for_training",
+  "metrics": {
+    "baseline": {
+      "roll_pitch_peak_deg": [
+        6.668882263201802,
+        12.9135825598864
+      ],
+      "yaw_residual_rms_deg": 1.5676388153203973,
+      "root_angular_speed_peak_rad_s": 1.5693954006757884,
+      "joint_step_peak_rad": 0.4935231717619284,
+      "joint_step_frame": 190,
+      "joint_step_name": "Ll1_Ll2",
+      "joint_speed_peak_rad_s": 14.757151890061596,
+      "ankle_roll_peak_deg_right_left": [
+        12.178254456862572,
+        12.628575409901098
+      ],
+      "max_stance_corner_height_m": 1.2591567857822561e-08,
+      "max_stance_tilt_deg": 1.2074182697257333e-06,
+      "max_stance_drift_m": 1.3615514912105006e-08,
+      "min_foot_mesh_height_m": -1.707075730772445e-10
+    },
+    "candidate": {
+      "roll_pitch_peak_deg": [
+        3.0086090028600307,
+        5.999211879943091
+      ],
+      "yaw_residual_rms_deg": 0.6118229019535241,
+      "root_angular_speed_peak_rad_s": 0.3707368969593395,
+      "joint_step_peak_rad": 0.50836590126541,
+      "joint_step_frame": 190,
+      "joint_step_name": "Ll1_Ll2",
+      "joint_speed_peak_rad_s": 15.200973834559147,
+      "ankle_roll_peak_deg_right_left": [
+        12.53251102142644,
+        12.959382199363587
+      ],
+      "max_stance_corner_height_m": 3.3738540891614655e-08,
+      "max_stance_tilt_deg": 8.537736462515939e-07,
+      "max_stance_drift_m": 3.3269176873484504e-08,
+      "min_foot_mesh_height_m": -4.504466244448224e-12
+    }
+  },
+  "max_stance_center_difference_m": 3.053485960948827e-08,
+  "max_solved_root_translation_difference_m": 0.013106829730062594,
+  "limitations": [
+    "Kinematic playback, not a dynamic balance test.",
+    "Knee transition at frame 190 remains sharp and is slightly larger in the candidate.",
+    "Peak ankle roll joint angles increase by about 0.35 degrees; flat soles do not mean zero ankle joint angle.",
+    "Clip ends are not periodic. Restarting playback causes a reset, not a continuous gait cycle.",
+    "No robot model, original reference, or training motion was changed."
+  ],
+  "preserved_sha256": {
+    "retargeting_data/mos_flat_feet/walk.pkl": "893e5ed88eb16f9604cb5654ee395a7ff8ff1641eef51fb682af13fec0f79995",
+    "retargeting_data/mos_flat_feet/walk.contacts.json": "ff271bef77e385f636b8903c27f3e4d59e1edee9f3a9ee9889a61737b48773dc",
+    "assets/mos/MOS9.2.xml": "daf443acc09a9924d9e0d47a76aab49581a0604dd9c9e7b30b188f15f7642f3b"
+  },
+  "implementation_sha256": {
+    "general_motion_retargeting/utils/mos_torso.py": "313da556e0d4c16371dbb2f87e995d2a81f98c95cdbf74ada22e4b1a291dd8f8",
+    "general_motion_retargeting/utils/mos_contacts.py": "6893ef44196da6ba00e07d89bf79a862a1c55d80ce3082fc8d464a2151c0da23",
+    "scripts/smplx_to_robot.py": "9cb44f1052893b47be82b6204cd324fb53a7ad5536f70ece7e72825793eeeaf9"
+  }
+}

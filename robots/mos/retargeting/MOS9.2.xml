@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="MOS9.2">
+  <compiler meshdir="meshes" angle="radian" autolimits="true" />
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512" />
+    <texture name="texplane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2" width="512" height="512" mark="cross" markrgb=".8 .8 .8" />
+    <material name="matplane" reflectance="0.3" texture="texplane" texrepeat="1 1" texuniform="true" />
+    <mesh name="body" file="body.stl" scale="1 1 1" />
+    <mesh name="neck" file="neck.stl" scale="1 1 1" />
+    <mesh name="head" file="head.stl" scale="1 1 1" />
+    <mesh name="Rshoulder" file="Rshoulder.stl" scale="1 1 1" />
+    <mesh name="Rarm" file="Rarm.stl" scale="1 1 1" />
+    <mesh name="Rhand" file="Rhand.stl" scale="1 1 1" />
+    <mesh name="Lshoulder" file="Lshoulder.stl" scale="1 1 1" />
+    <mesh name="Larm" file="Larm.stl" scale="1 1 1" />
+    <mesh name="Lhand" file="Lhand.stl" scale="1 1 1" />
+    <mesh name="Rhip" file="Rhip.stl" scale="1 1 1" />
+    <mesh name="Rlap" file="Rlap.stl" scale="1 1 1" />
+    <mesh name="Rleg1" file="Rleg1.stl" scale="1 1 1" />
+    <mesh name="Rleg2" file="Rleg2.stl" scale="1 1 1" />
+    <mesh name="Rankle" file="Rankle.stl" scale="1 1 1" />
+    <mesh name="Rfoot" file="Rfoot.stl" scale="1 1 1" />
+    <mesh name="Lhip" file="Lhip.stl" scale="1 1 1" />
+    <mesh name="Llap" file="Llap.stl" scale="1 1 1" />
+    <mesh name="Lleg1" file="Lleg1.stl" scale="1 1 1" />
+    <mesh name="Lleg2" file="Lleg2.stl" scale="1 1 1" />
+    <mesh name="Lankle" file="Lankle.stl" scale="1 1 1" />
+    <mesh name="Lfoot" file="Lfoot.stl" scale="1 1 1" />
+  </asset>
+  <worldbody>
+    <light directional="true" diffuse=".4 .4 .4" specular="0.1 0.1 0.1" pos="0 0 5.0" dir="0 0 -1" castshadow="false" />
+    <light directional="true" diffuse=".6 .6 .6" specular="0.2 0.2 0.2" pos="0 0 4" dir="0 0 -1" />
+    <geom name="ground" type="plane" pos="0 0 0" size="0 0 1" material="matplane" contype="1" conaffinity="1" />
+    <body name="body">
+      <joint name="world_joint" type="free" limited="false" />
+      <inertial pos="-0.0182501208826118 -0.00190049970240902 0.0863636963583089" mass="4.35806806126274" fullinertia="0.012655421444988201 0.0083859111677895802 0.0089536020258598904 -1.9436582737215699e-06 -0.00010620088050334501 -3.4012156683631202e-07" />
+      <geom name="body_visual" type="mesh" mesh="body" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+      <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+      <body name="neck" pos="-0.005 0 0.2441" quat="1 0 0 0">
+        <joint name="b_n" type="hinge" axis="0 0 -1" limited="false" />
+        <inertial pos="-0.000187733021383862 0.00313210111852241 0.0367257386628151" mass="0.243152851941267" fullinertia="0.000107527809141662 0.000106047679861548 0.000100507717987487 2.3284438283321199e-09 -3.7959857469986701e-07 6.8910925940301798e-06" />
+        <geom name="neck_visual" type="mesh" mesh="neck" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+        <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        <body name="head" pos="0 -0.033 0.0475" quat="0.70710678118654624 0.70710678118654879 0 0">
+          <joint name="n_h" type="hinge" axis="0 0 -1" limited="false" />
+          <inertial pos="-0.00148614977503109 0.0537575763860302 -0.0296115992755681" mass="0.322467436272026" fullinertia="0.000786985359858465 0.00077945250723267397 9.3920453594968994e-05 8.4862410256650706e-08 3.8891657567131497e-09 -7.5722241427996302e-06" />
+          <geom name="head_visual" type="mesh" mesh="head" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+          <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        </body>
+      </body>
+      <body name="Rshoulder" pos="-0.0100000000000138 -0.105000000000124 0.192100000000112" quat="1.1423625238904151e-15 1.1423625238904192e-15 -0.70710678118654879 -0.70710678118654624">
+        <joint name="b_Rs" type="hinge" axis="0 0 -1" limited="false" />
+        <inertial pos="-0.00132059633693976 5.62178901126614E-05 -0.0337001041277888" mass="0.244736730758832" fullinertia="0.00012937396824313599 8.7910411478203497e-05 0.000106520121171402 -8.6099113536916605e-08 1.2078891148474001e-05 -2.4422653123027001e-07" />
+        <geom name="Rshoulder_visual" type="mesh" mesh="Rshoulder" contype="0" conaffinity="0" group="1" rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" pos="0 0 0" quat="1 0 0 0" />
+        <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        <body name="Rarm" pos="-0.0250000000000136 0 -0.0489999999998756" quat="0.70710678118654624 0 0.70710678118654879 0">
+          <joint name="Rs_Ra" type="hinge" axis="0 0 1" limited="false" />
+          <inertial pos="0.123976619673335 2.3816494963344E-05 0.0179849541694587" mass="0.505922675972045" fullinertia="0.00024917733589919101 0.00086327908773414601 0.00076979878343427896 2.4123318020310199e-05 5.1299402014640603e-05 8.9607185618386798e-06" />
+          <geom name="Rarm_visual" type="mesh" mesh="Rarm" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+          <geom type="capsule" fromto="0 0 0 0 -0.11 0" size="0.05" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          <body name="Rhand" pos="0.16 0.0286499999999997 0.0299999999999999" quat="0.70710678118654624 0.70710678118654879 0 0">
+            <joint name="Ra_Rh" type="hinge" axis="0 0 -1" limited="false" />
+            <inertial pos="0.109240589043814 0.000677471556759845 -0.00178541903634942" mass="0.273862324070502" fullinertia="5.2613968285487001e-05 0.00069957661138970095 0.00072567951936795903 4.0118960342206803e-06 2.85280392770804e-05 1.7684809100278799e-07" />
+            <geom name="Rhand_visual" type="mesh" mesh="Rhand" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+            <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          </body>
+        </body>
+      </body>
+      <body name="Lshoulder" pos="-0.00999998124092416 0.105000001016346 0.192100005298829" quat="0.70710678118654624 0.70710678118654879 0 0">
+        <joint name="b_Ls" type="hinge" axis="0 0 -1" limited="false" />
+        <inertial pos="0.00132063035506957 5.63171682046171E-05 -0.0337001075421161" mass="0.244736778509988" fullinertia="0.00012937404988673599 8.7912036245165501e-05 0.000106518334762561 8.5335833881982698e-08 -1.2078942270293699e-05 -2.4164238223282003e-07" />
+        <geom name="Lshoulder_visual" type="mesh" mesh="Lshoulder" contype="0" conaffinity="0" group="1" rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" pos="0 0 0" quat="1 0 0 0" />
+        <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        <body name="Larm" pos="0.0249999812409242 0 -0.0489999989836545" quat="0.70710678118654624 0 0.70710678118654879 0">
+          <joint name="Ls_La" type="hinge" axis="0 0 -1" limited="false" />
+          <inertial pos="0.123966814199197 2.38166802215833E-05 -0.017975150553097" mass="0.505922690783429" fullinertia="0.000249179325079772 0.00086327909773232896 0.00076979679553005297 2.4123316751308599e-05 -5.1299401252064301e-05 -8.9607186639545105e-06" />
+          <geom name="Larm_visual" type="mesh" mesh="Larm" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+          <geom type="capsule" fromto="0 0 0 0 -0.11 0" size="0.05" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          <body name="Lhand" pos="0.16 0.0286500000000008 -0.0299999999999989" quat="1.1423625238904151e-15 -1.1423625238904192e-15 -0.70710678118654879 0.70710678118654624">
+            <joint name="La_Lh" type="hinge" axis="0 0 -1" limited="false" />
+            <inertial pos="-0.109242689903327 -2.67381965457503E-08 -0.00178541891944009" mass="0.273862322424458" fullinertia="5.2589092008487398e-05 0.00069960148707308705 0.00072567951901021503 -3.81681361599439e-10 -2.85285855769356e-05 6.7151261674777606e-11" />
+            <geom name="Lhand_visual" type="mesh" mesh="Lhand" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+            <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          </body>
+        </body>
+      </body>
+      <body name="Rhip" pos="-0.0150000000000001 -0.0645 -0.0466" quat="1.1423625238904151e-15 1.1423625238904192e-15 0.70710678118654879 0.70710678118654624">
+        <joint name="b_Rh" type="hinge" axis="0 0 1" limited="false" />
+        <inertial pos="0.00165224983746645 -0.000153256597703239 -0.04716983324128" mass="0.447922579537738" fullinertia="0.00033655726061194801 0.00017598429507637101 0.00021248524943445001 6.7341063213898901e-07 -1.5485181902228599e-07 -3.79544774009115e-08" />
+        <geom name="Rhip_visual" type="mesh" mesh="Rhip" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+        <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        <body name="Rlap" pos="-0.0275 0 -0.061" quat="0.70710678118654624 0 0.70710678118654879 0">
+          <joint name="Rh_Rl" type="hinge" axis="0 0 -1" limited="false" />
+          <inertial pos="3.09121089836495E-10 -0.031721697647471 0.000916614078336042" mass="0.175119556314121" fullinertia="0.00015530766992431799 7.5052789038171998e-05 0.000137460344788302 1.87603158621217e-12 3.7950796870698298e-13 -3.48905088975491e-05" />
+          <geom name="Rlap_visual" type="mesh" mesh="Rlap" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+          <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          <body name="Rleg1" pos="0 -0.063 0.0280000000000001" quat="1.1423625238904151e-15 1.1423625238904192e-15 0.70710678118654879 0.70710678118654624">
+            <joint name="Rl_Rl1" type="hinge" axis="0 0 -1" limited="false" />
+            <inertial pos="0.000530354807968397 -0.00413771934599061 -0.0824206235447885" mass="0.966091751905849" fullinertia="0.0016552475519086901 0.00139196745796225 0.00084103918620086497 6.84286273811622e-06 -4.9741362470209701e-05 7.9840999362445995e-05" />
+            <geom name="Rleg1_visual" type="mesh" mesh="Rleg1" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+            <geom type="capsule" fromto="0 0 0 0 -0.11 0" size="0.05" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+            <body name="Rleg2" pos="-0.00900000000000004 0 -0.146" quat="0.49999999999999817 0.5 -0.50000000000000178 -0.5">
+              <joint name="Rl1_Rl2" type="hinge" axis="0 0 -1" limited="false" />
+              <inertial pos="-0.00407191869623438 -0.135567799725998 -0.00123327776602503" mass="0.624084469676422" fullinertia="0.00145322270859193 0.000231800595801017 0.0016491966253583299 0.00017224973098276 -4.1760422675076197e-06 -3.1910326184903697e-05" />
+              <geom name="Rleg2_visual" type="mesh" mesh="Rleg2" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+              <geom type="capsule" fromto="0 0 0 0 -0.13 0" size="0.045" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+              <body name="Rankle" pos="0 -0.2 0.0177999999999997" quat="1 0 0 0">
+                <joint name="Rl2_Ra" type="hinge" axis="0 0 -1" limited="false" />
+                <inertial pos="0.0321512482443131 -4.59865812096893E-10 -0.00303590911349036" mass="0.187524858365076" fullinertia="8.4358134856170103e-05 0.000197060970011504 0.00017685220514037899 -5.5489140558758601e-12 -5.1699062408221698e-05 4.7559976232924001e-12" />
+                <geom name="Rankle_visual" type="mesh" mesh="Rankle" contype="0" conaffinity="0" group="1" rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" pos="0 0 0" quat="1 0 0 0" />
+                <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+                <body name="Rfoot" pos="0.0689999999999583 0 -0.0259999999999973" quat="0.70710678118654624 0 0.70710678118654879 0">
+                  <joint name="Ra_Rf" type="hinge" axis="0 0 1" limited="false" />
+                  <inertial pos="8.61075291624935E-09 -0.0355878322875397 0.0190508449468564" mass="0.444249339436953" fullinertia="0.00048487415666383099 0.00060095099150306601 0.00032562953876197001 -1.04013978438541e-09 8.1792295408894495e-12 3.7593433377245e-06" />
+                  <geom name="Rfoot_visual" type="mesh" mesh="Rfoot" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+                  <geom type="box" size="0.11 0.055 0.025" pos="0 -0.035 -0.015" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="Lhip" pos="-0.0150000000000001 0.0645 -0.0466" quat="1.1423625238904151e-15 1.1423625238904192e-15 0.70710678118654879 0.70710678118654624">
+        <joint name="b_Lh" type="hinge" axis="0 0 -1" limited="false" />
+        <inertial pos="0.00165224894900179 -7.3220696434062E-05 0.0471698378385199" mass="0.447922591167837" fullinertia="0.00033655726870089701 0.000175984305860162 0.00021248524919222 6.7341041985942502e-07 1.54852005222124e-07 4.25225663555847e-08" />
+        <geom name="Lhip_visual" type="mesh" mesh="Lhip" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+        <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+        <body name="Llap" pos="-0.027499999999988 9.99999999794776E-05 0.0609999999999988" quat="0.70710678118654624 0 0.70710678118654879 0">
+          <joint name="Lh_Ll" type="hinge" axis="0 0 -1" limited="false" />
+          <inertial pos="3.09119480013109E-10 -0.0317216976474549 0.00091661407832061" mass="0.175119556314121" fullinertia="0.00015530766992431799 7.5052789038171998e-05 0.00013746034478830099 1.8760313957258201e-12 3.79508076653435e-13 -3.48905088975491e-05" />
+          <geom name="Llap_visual" type="mesh" mesh="Llap" contype="0" conaffinity="0" group="1" rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" pos="0 0 0" quat="1 0 0 0" />
+          <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+          <body name="Lleg1" pos="0 -0.0629999999999796 0.0279999999999841" quat="1.1423625238904151e-15 1.1423625238904192e-15 0.70710678118654879 0.70710678118654624">
+            <joint name="Ll_Ll1" type="hinge" axis="0 0 -1" limited="false" />
+            <inertial pos="-0.000535781615046887 -0.00413973081999081 -0.0824206486794982" mass="0.966092683290071" fullinertia="0.0016552176255236601 0.0013919900662713301 0.00084105972713330399 -6.8277847711236304e-06 4.9731479575150298e-05 7.9806780796671406e-05" />
+            <geom name="Lleg1_visual" type="mesh" mesh="Lleg1" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+            <geom type="capsule" fromto="0 0 0 0 -0.11 0" size="0.05" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+            <body name="Lleg2" pos="0.00900000000000006 0 -0.146" quat="0.49999999999999817 0.5 0.50000000000000178 0.5">
+              <joint name="Ll1_Ll2" type="hinge" axis="0 0 -1" limited="false" />
+              <inertial pos="0.0040643776620283 -0.135558974776272 -0.00123327766586004" mass="0.624084469535357" fullinertia="0.0014534887680419501 0.00023153451707469801 0.0016491966058949799 -0.00017220773638180001 4.1760419869312102e-06 -3.1910326286834199e-05" />
+              <geom name="Lleg2_visual" type="mesh" mesh="Lleg2" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+              <geom type="capsule" fromto="0 0 0 0 -0.13 0" size="0.045" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+              <body name="Lankle" pos="0 -0.2 0.0177999999999994" quat="1 0 0 0">
+                <joint name="Ll2_La" type="hinge" axis="0 0 -1" limited="false" />
+                <inertial pos="-0.0321512482442743 6.91723612318285E-05 -0.00313158675555364" mass="0.187524858365075" fullinertia="8.4358134856170306e-05 0.000197060970011504 0.00017685220514037899 -5.5489136908371598e-12 5.1699062408221902e-05 -4.7559975480603202e-12" />
+                <geom name="Lankle_visual" type="mesh" mesh="Lankle" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+                <geom type="sphere" size="0.06" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+                <body name="Lfoot" pos="-0.068999999995933 0.00155678563569939 -0.0281533249166232" quat="0.70710678118654624 0 0.70710678118654879 0">
+                  <joint name="La_Lf" type="hinge" axis="0 0 -1" limited="false" />
+                  <inertial pos="-8.61075105662579E-09 -0.0355878322875431 -0.0190508449499858" mass="0.444249339436954" fullinertia="0.00048487415666383099 0.00060095099150306503 0.00032562953876197099 1.04013978438732e-09 8.1792294030547398e-12 -3.7593433377245699e-06" />
+                  <geom name="Lfoot_visual" type="mesh" mesh="Lfoot" contype="0" conaffinity="0" group="1" rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" pos="0 0 0" quat="1 0 0 0" />
+                  <geom type="box" size="0.11 0.055 0.025" pos="0 -0.035 -0.015" contype="1" conaffinity="1" group="3" rgba="0.75 0.78 0.85 1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

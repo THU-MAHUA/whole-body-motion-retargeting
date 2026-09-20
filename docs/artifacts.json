@@ -1,0 +1,1727 @@
+{
+  "packaged_on": "2026-09-20",
+  "status": "local_only_pending_asset_permissions",
+  "notes": [
+    "Source labels are provenance identifiers, not runtime dependencies.",
+    "Source hashes refer to original bytes. Relocated JSON/YAML/model paths change packaged hashes.",
+    "Motion arrays, selected checkpoint binaries, and requested video bytes are preserved.",
+    "No new redistribution rights are asserted."
+  ],
+  "artifacts": [
+    {
+      "path": "motions/K1/dance_8_clip1.npz",
+      "bytes": 758940,
+      "sha256": "1b4b1e486ef6d1f97e22c7b6be6471a95107b4086467bc1acb628eab0a2c08aa",
+      "source_label": "BoosterTrain/motions/K1/dance_8_clip1.npz",
+      "source_sha256": "1b4b1e486ef6d1f97e22c7b6be6471a95107b4086467bc1acb628eab0a2c08aa",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/K1/jog.json",
+      "bytes": 8581,
+      "sha256": "393ce00ad823799aab3d1960ed160ec0ee811120ecdcb59c35524424ace8304e",
+      "source_label": "BoosterTrain/motions/K1/jog.json",
+      "source_sha256": "12b80a578a11462aee213fc566aabe8ea17b404593d4603b58dea00f704cff61",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/K1/jog.npz",
+      "bytes": 100380,
+      "sha256": "95e142d02d0c525542895ce40e16c35c766b63367ec590111ce068aa947fe828",
+      "source_label": "BoosterTrain/motions/K1/jog.npz",
+      "source_sha256": "95e142d02d0c525542895ce40e16c35c766b63367ec590111ce068aa947fe828",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/K1/run.json",
+      "bytes": 8617,
+      "sha256": "caa0d3f83bec92fb4bea0a289af194bced94745f6a0a14be233684f466fb3a66",
+      "source_label": "BoosterTrain/motions/K1/run.json",
+      "source_sha256": "26ff52c013cb86b5443ce5b616134dffe7b3ab861656be3a495ffa901a27d261",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/K1/run.npz",
+      "bytes": 188188,
+      "sha256": "b78443eb9bec34a5c0c7b05e4a11b06f64115dc8182c4d4dd118b719f02567b3",
+      "source_label": "BoosterTrain/motions/K1/run.npz",
+      "source_sha256": "b78443eb9bec34a5c0c7b05e4a11b06f64115dc8182c4d4dd118b719f02567b3",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/K1/walk.json",
+      "bytes": 8595,
+      "sha256": "ea615145e0f78fc12e5fc24c0759cbf7798fe216476c6c963e89431aef22793c",
+      "source_label": "BoosterTrain/motions/K1/walk.json",
+      "source_sha256": "137049eae159826a1e05a89b7980bca65b76a11a51dc2ea5e524bfca861121d2",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/K1/walk.npz",
+      "bytes": 524328,
+      "sha256": "2a655b2d77febc29167a0c2d111df4306ff5ff7d066cc387d0eaf1f4e0091a11",
+      "source_label": "BoosterTrain/motions/K1/walk.npz",
+      "source_sha256": "2a655b2d77febc29167a0c2d111df4306ff5ff7d066cc387d0eaf1f4e0091a11",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/MOS/walk.json",
+      "bytes": 10929,
+      "sha256": "28a5469db9e7788e74f1c8f93ec340214696d6c8266fbc64261c93782d315ea8",
+      "source_label": "BoosterTrain/motions/MOS/walk.json",
+      "source_sha256": "5d35f82740010b5c04f587ee1c22fd4de1e90cc31ace97d83be5af7e63603981",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/MOS/walk.npz",
+      "bytes": 479376,
+      "sha256": "c728f1c0660da24171fb4b334833e1fb47742d1c910169a1f06c6c4710c44dbc",
+      "source_label": "BoosterTrain/motions/MOS/walk.npz",
+      "source_sha256": "c728f1c0660da24171fb4b334833e1fb47742d1c910169a1f06c6c4710c44dbc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/MOS/walk_rigid_v2.json",
+      "bytes": 10939,
+      "sha256": "c6345f5b9a7a298743ef57bee26f1c12afa06d7fbb4c4d836f783efb97e796b0",
+      "source_label": "BoosterTrain/motions/MOS/walk_rigid_v2.json",
+      "source_sha256": "95529965199ec6a509eeb9cd8158614199f7e2316cf782481b0a22078ef68761",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/MOS/walk_rigid_v2.npz",
+      "bytes": 479376,
+      "sha256": "3b8eed9ed2ede2b29ea7649ce8c1d5de43f90a987d3a5c3cf9c80e99d7b0a19e",
+      "source_label": "BoosterTrain/motions/MOS/walk_rigid_v2.npz",
+      "source_sha256": "3b8eed9ed2ede2b29ea7649ce8c1d5de43f90a987d3a5c3cf9c80e99d7b0a19e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1/csv/dance_8_clip1.csv",
+      "bytes": 243251,
+      "sha256": "25f6aec1c0cfb1b0e8853c23d0899350d1b1cf3b6b68d3f7bdfc52a338eec6e9",
+      "source_label": "GMR/retargeting_data/k1/csv/dance_8_clip1.csv",
+      "source_sha256": "25f6aec1c0cfb1b0e8853c23d0899350d1b1cf3b6b68d3f7bdfc52a338eec6e9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1/dance_8_clip1.pkl",
+      "bytes": 76643,
+      "sha256": "47de9d21335aa5b997663445c812c46cf70277bbcf7495608daccd776044fc70",
+      "source_label": "GMR/retargeting_data/k1/dance_8_clip1.pkl",
+      "source_sha256": "47de9d21335aa5b997663445c812c46cf70277bbcf7495608daccd776044fc70",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1/dance_8_clip1_grounded.pkl",
+      "bytes": 76643,
+      "sha256": "05c7ec3dc7ce7363c4570a3f6b850c30eab4d3cf1f23e21351b6c12ddaad4305",
+      "source_label": "GMR/retargeting_data/k1/dance_8_clip1_grounded.pkl",
+      "source_sha256": "05c7ec3dc7ce7363c4570a3f6b850c30eab4d3cf1f23e21351b6c12ddaad4305",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_grounded/csv/dance_8_clip1.csv",
+      "bytes": 243243,
+      "sha256": "bb97a8b7b1a2b4feba4a4272e94b0572a9ffb7f1aeec561b33971c917d963305",
+      "source_label": "GMR/retargeting_data/k1_grounded/csv/dance_8_clip1.csv",
+      "source_sha256": "bb97a8b7b1a2b4feba4a4272e94b0572a9ffb7f1aeec561b33971c917d963305",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_grounded/dance_8_clip1.pkl",
+      "bytes": 76643,
+      "sha256": "05c7ec3dc7ce7363c4570a3f6b850c30eab4d3cf1f23e21351b6c12ddaad4305",
+      "source_label": "GMR/retargeting_data/k1_grounded/dance_8_clip1.pkl",
+      "source_sha256": "05c7ec3dc7ce7363c4570a3f6b850c30eab4d3cf1f23e21351b6c12ddaad4305",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/jog.pkl",
+      "bytes": 10054,
+      "sha256": "8fae6447ecf23f66533127a30824192b7f4d7ebfbf8163a9eedd7039df600f52",
+      "source_label": "GMR/retargeting_data/k1_locomotion/jog.pkl",
+      "source_sha256": "8fae6447ecf23f66533127a30824192b7f4d7ebfbf8163a9eedd7039df600f52",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/jog_validation.json",
+      "bytes": 1478,
+      "sha256": "4a610a1ef805cca2b319a10b0898bc0c65ffd5664f1b07715b9e6e7498569b1e",
+      "source_label": "GMR/retargeting_data/k1_locomotion/jog_validation.json",
+      "source_sha256": "4a610a1ef805cca2b319a10b0898bc0c65ffd5664f1b07715b9e6e7498569b1e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/jog.mp4",
+      "bytes": 126257,
+      "sha256": "964778084d768a38a7d1aa49453c0b295b2afaf46c0ae6cb5701f5da2b17bff0",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/jog.mp4",
+      "source_sha256": "964778084d768a38a7d1aa49453c0b295b2afaf46c0ae6cb5701f5da2b17bff0",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 640,
+        "height": 480,
+        "avg_frame_rate": "2983/100",
+        "duration": "1.407979",
+        "nb_frames": "42"
+      }
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/jog_poses.png",
+      "bytes": 303561,
+      "sha256": "1a8af4f448484c4d063051b2fe302db407ea7a779491f97612ad9f6f0c164db1",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/jog_poses.png",
+      "source_sha256": "1a8af4f448484c4d063051b2fe302db407ea7a779491f97612ad9f6f0c164db1",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/run.mp4",
+      "bytes": 255012,
+      "sha256": "4aa551da08ad3eea617d32d04c730387a09b4cf9a65f47eba79d0a9503c0b9da",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/run.mp4",
+      "source_sha256": "4aa551da08ad3eea617d32d04c730387a09b4cf9a65f47eba79d0a9503c0b9da",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 640,
+        "height": 480,
+        "avg_frame_rate": "1491/50",
+        "duration": "2.682763",
+        "nb_frames": "80"
+      }
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/run_poses.png",
+      "bytes": 315605,
+      "sha256": "a2cbda5de8d23b797b09216f5be08668353eeede4bcd6ac2238a1eac42555650",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/run_poses.png",
+      "source_sha256": "a2cbda5de8d23b797b09216f5be08668353eeede4bcd6ac2238a1eac42555650",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/walk.mp4",
+      "bytes": 440265,
+      "sha256": "de6daeaab97a9db7de8e80e588f035bf0e557c7713a27a42a59158f600ffe8bf",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/walk.mp4",
+      "source_sha256": "de6daeaab97a9db7de8e80e588f035bf0e557c7713a27a42a59158f600ffe8bf",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 640,
+        "height": 480,
+        "avg_frame_rate": "299/10",
+        "duration": "7.591973",
+        "nb_frames": "227"
+      }
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/previews/walk_poses.png",
+      "bytes": 300562,
+      "sha256": "6c62774c469e0c72436f28c28e64da329b1d6939b1bedf6c583c657feff043b0",
+      "source_label": "GMR/retargeting_data/k1_locomotion/previews/walk_poses.png",
+      "source_sha256": "6c62774c469e0c72436f28c28e64da329b1d6939b1bedf6c583c657feff043b0",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/run.pkl",
+      "bytes": 18870,
+      "sha256": "8f7bdd7571ae30b7574f37d6974c30f1c919293c2fb4af73e80846e55c0a98a5",
+      "source_label": "GMR/retargeting_data/k1_locomotion/run.pkl",
+      "source_sha256": "8f7bdd7571ae30b7574f37d6974c30f1c919293c2fb4af73e80846e55c0a98a5",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/run_validation.json",
+      "bytes": 1498,
+      "sha256": "7afdcc0851ed660b786481932aaa7a216d0c3b7694cd6856f7797c08fc233687",
+      "source_label": "GMR/retargeting_data/k1_locomotion/run_validation.json",
+      "source_sha256": "7afdcc0851ed660b786481932aaa7a216d0c3b7694cd6856f7797c08fc233687",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/walk.pkl",
+      "bytes": 52974,
+      "sha256": "5022b3b433bdfd9d4bfc19e0f793cf6e5cf5b84c342b4b2824c9a168bac79d93",
+      "source_label": "GMR/retargeting_data/k1_locomotion/walk.pkl",
+      "source_sha256": "5022b3b433bdfd9d4bfc19e0f793cf6e5cf5b84c342b4b2824c9a168bac79d93",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_locomotion/walk_validation.json",
+      "bytes": 1511,
+      "sha256": "b702b2d1ab21f448a10e250fd9d12fc0eb3879a89c38ee2b6fea9c2c23d58864",
+      "source_label": "GMR/retargeting_data/k1_locomotion/walk_validation.json",
+      "source_sha256": "b702b2d1ab21f448a10e250fd9d12fc0eb3879a89c38ee2b6fea9c2c23d58864",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_updated/csv/dance_8_clip1.csv",
+      "bytes": 243251,
+      "sha256": "25f6aec1c0cfb1b0e8853c23d0899350d1b1cf3b6b68d3f7bdfc52a338eec6e9",
+      "source_label": "GMR/retargeting_data/k1_updated/csv/dance_8_clip1.csv",
+      "source_sha256": "25f6aec1c0cfb1b0e8853c23d0899350d1b1cf3b6b68d3f7bdfc52a338eec6e9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/k1_updated/dance_8_clip1.pkl",
+      "bytes": 76643,
+      "sha256": "47de9d21335aa5b997663445c812c46cf70277bbcf7495608daccd776044fc70",
+      "source_label": "GMR/retargeting_data/k1_updated/dance_8_clip1.pkl",
+      "source_sha256": "47de9d21335aa5b997663445c812c46cf70277bbcf7495608daccd776044fc70",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_flat_feet/B3_-_walk1_stageii.contacts.json",
+      "bytes": 10460,
+      "sha256": "28b714dd10aad9a47617921ba069af94b48a55b089b25ffb232f6c57f5b5fe50",
+      "source_label": "GMR/retargeting_data/mos_flat_feet/B3_-_walk1_stageii.contacts.json",
+      "source_sha256": "ff271bef77e385f636b8903c27f3e4d59e1edee9f3a9ee9889a61737b48773dc",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_flat_feet/walk.contacts.json",
+      "bytes": 10460,
+      "sha256": "28b714dd10aad9a47617921ba069af94b48a55b089b25ffb232f6c57f5b5fe50",
+      "source_label": "GMR/retargeting_data/mos_flat_feet/walk.contacts.json",
+      "source_sha256": "ff271bef77e385f636b8903c27f3e4d59e1edee9f3a9ee9889a61737b48773dc",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_flat_feet/walk.pkl",
+      "bytes": 49558,
+      "sha256": "893e5ed88eb16f9604cb5654ee395a7ff8ff1641eef51fb682af13fec0f79995",
+      "source_label": "GMR/retargeting_data/mos_flat_feet/walk.pkl",
+      "source_sha256": "893e5ed88eb16f9604cb5654ee395a7ff8ff1641eef51fb682af13fec0f79995",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_flat_feet/walk.poses.jpg",
+      "bytes": 330254,
+      "sha256": "5026fd0de6aaeefc924fd2265c66ad5c29ee444b71c70eaca643f1edfcd8f7b9",
+      "source_label": "GMR/retargeting_data/mos_flat_feet/walk.poses.jpg",
+      "source_sha256": "5026fd0de6aaeefc924fd2265c66ad5c29ee444b71c70eaca643f1edfcd8f7b9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_flat_feet/walk.validation.json",
+      "bytes": 401,
+      "sha256": "663f646fea56c4a9344d15dff60bd381ce0e7d393421cf43f24337e7ea65277b",
+      "source_label": "GMR/retargeting_data/mos_flat_feet/walk.validation.json",
+      "source_sha256": "663f646fea56c4a9344d15dff60bd381ce0e7d393421cf43f24337e7ea65277b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/jog.json",
+      "bytes": 3184,
+      "sha256": "d218f2fbee9186319b648809252a9144a662eb6687222500d6043c8664e9be14",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/jog.json",
+      "source_sha256": "00c393ba7bb9176ec2498dabc315f53d88005fee534829ca8d35f278dce3872c",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/jog.pkl",
+      "bytes": 9598,
+      "sha256": "05724a637822b394da41cd6828c37b77cc57611d7d585ebc7722d5468e3ceddc",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/jog.pkl",
+      "source_sha256": "05724a637822b394da41cd6828c37b77cc57611d7d585ebc7722d5468e3ceddc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/jog_poses.jpg",
+      "bytes": 174209,
+      "sha256": "25911e59513f4b0ffbe23c67a8a0803e308b8ce93fe2e7fe209a2aecafdafb76",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/jog_poses.jpg",
+      "source_sha256": "25911e59513f4b0ffbe23c67a8a0803e308b8ce93fe2e7fe209a2aecafdafb76",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/run.json",
+      "bytes": 3192,
+      "sha256": "83a16f605f8a815f9c45105a19c1a8df785bea7a3fcf9af33bf29382a44c16a6",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/run.json",
+      "source_sha256": "73fa44815aca8d141502b65b6cdb5922c89935213b415ffdabb44c94b07b82cd",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/run.pkl",
+      "bytes": 17806,
+      "sha256": "b811c5c9df180c4af4b46f79f7a58370606876f12bf3caa1699fdddede109329",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/run.pkl",
+      "source_sha256": "b811c5c9df180c4af4b46f79f7a58370606876f12bf3caa1699fdddede109329",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/run_poses.jpg",
+      "bytes": 172209,
+      "sha256": "8fe5a9f766e2ca3bd4d1eceb39788d7c19124994cac7f56c7f5b23403bd7cc3c",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/run_poses.jpg",
+      "source_sha256": "8fe5a9f766e2ca3bd4d1eceb39788d7c19124994cac7f56c7f5b23403bd7cc3c",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/walk.json",
+      "bytes": 3214,
+      "sha256": "39cc765c320c0aa684b813cdd575fe8916ac744560a07695d1db6b8cb3076720",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/walk.json",
+      "source_sha256": "1dbb4b7e8fd699d0034cb2b8b6e60907da2b9c7c42dd792732f4455169811aa0",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/walk.pkl",
+      "bytes": 49558,
+      "sha256": "0240bb8d4b0c728967cebe0e94be938de3eb7750df7479a0a089e6b5e7c798a7",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/walk.pkl",
+      "source_sha256": "0240bb8d4b0c728967cebe0e94be938de3eb7750df7479a0a089e6b5e7c798a7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_calibrated/walk_poses.jpg",
+      "bytes": 170959,
+      "sha256": "b5ad22d397cf697d34c5484cb5d3f6c9652cfd52c09f497e4270cec4230683cd",
+      "source_label": "GMR/retargeting_data/mos_locomotion_calibrated/walk_poses.jpg",
+      "source_sha256": "b5ad22d397cf697d34c5484cb5d3f6c9652cfd52c09f497e4270cec4230683cd",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/jog.json",
+      "bytes": 3475,
+      "sha256": "6288ab1d4a6bb87e86e585447aac7f37c8456920de5239fb6409aa8e39009992",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/jog.json",
+      "source_sha256": "b5addded618e5f6f4227eccd6d1d4e9287567e58119a752a01402606d49f814f",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/jog.pkl",
+      "bytes": 9598,
+      "sha256": "05724a637822b394da41cd6828c37b77cc57611d7d585ebc7722d5468e3ceddc",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/jog.pkl",
+      "source_sha256": "05724a637822b394da41cd6828c37b77cc57611d7d585ebc7722d5468e3ceddc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/jog_poses.jpg",
+      "bytes": 320160,
+      "sha256": "ba8adcf5706c4ea95553555bf12474b0a3d5f6b7a558a955ec2f76f4d3847be8",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/jog_poses.jpg",
+      "source_sha256": "ba8adcf5706c4ea95553555bf12474b0a3d5f6b7a558a955ec2f76f4d3847be8",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/jog_skeleton.jpg",
+      "bytes": 327617,
+      "sha256": "8b16f25ca4a2fe645d979f467c523bfe04a95f421636d36eb388816261df07c6",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/jog_skeleton.jpg",
+      "source_sha256": "8b16f25ca4a2fe645d979f467c523bfe04a95f421636d36eb388816261df07c6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/run.json",
+      "bytes": 3482,
+      "sha256": "1dc066e256558d9cfab7e6c9109c9ea4b8b155319b5139155286cf8263072086",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/run.json",
+      "source_sha256": "a72336d54a2dbba9382a0af790909753aa175f4dc71fd2ec74bd49743f6f4cbb",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/run.pkl",
+      "bytes": 17806,
+      "sha256": "b811c5c9df180c4af4b46f79f7a58370606876f12bf3caa1699fdddede109329",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/run.pkl",
+      "source_sha256": "b811c5c9df180c4af4b46f79f7a58370606876f12bf3caa1699fdddede109329",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/run_poses.jpg",
+      "bytes": 329620,
+      "sha256": "e80fc3c70cdd962fccc5260574dbe4c971fe48a73ce51aedca299803c4e35e0f",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/run_poses.jpg",
+      "source_sha256": "e80fc3c70cdd962fccc5260574dbe4c971fe48a73ce51aedca299803c4e35e0f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/run_skeleton.jpg",
+      "bytes": 336586,
+      "sha256": "ce22be1ef3946c810f7cb947bead1df30778a63867585950e637545f5ece35c1",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/run_skeleton.jpg",
+      "source_sha256": "ce22be1ef3946c810f7cb947bead1df30778a63867585950e637545f5ece35c1",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/walk.json",
+      "bytes": 3506,
+      "sha256": "91d3e0b4f84ef3e3c95fe1a8b492e2a85e35f4a4f4936505344a99e25cee4385",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/walk.json",
+      "source_sha256": "0720dba487dda1d2ec0d527d3744604de194565af2f7c67ee6582b60c268791c",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/walk.pkl",
+      "bytes": 49558,
+      "sha256": "0240bb8d4b0c728967cebe0e94be938de3eb7750df7479a0a089e6b5e7c798a7",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/walk.pkl",
+      "source_sha256": "0240bb8d4b0c728967cebe0e94be938de3eb7750df7479a0a089e6b5e7c798a7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/walk_poses.jpg",
+      "bytes": 331089,
+      "sha256": "6b64ef8d7f5c3708c9d46df6a9935ae0f72cc990a1022391ecaba83bb987426a",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/walk_poses.jpg",
+      "source_sha256": "6b64ef8d7f5c3708c9d46df6a9935ae0f72cc990a1022391ecaba83bb987426a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_locomotion_torso_aligned/walk_skeleton.jpg",
+      "bytes": 337971,
+      "sha256": "6474490bd9098247cc910f3bd5fa49354916e818820431fc8f936fffade4981b",
+      "source_label": "GMR/retargeting_data/mos_locomotion_torso_aligned/walk_skeleton.jpg",
+      "source_sha256": "6474490bd9098247cc910f3bd5fa49354916e818820431fc8f936fffade4981b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk.contacts.json",
+      "bytes": 11183,
+      "sha256": "be1a7f20e8584e8093c6a2452047bb07d72f8ed6d7d01b7d22944b541a417fe1",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk.contacts.json",
+      "source_sha256": "02a1b6b939bb507844e1ffecec1a7e3e6b72b5d9f374e9bbb3d5f726886c43e9",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk.pkl",
+      "bytes": 49558,
+      "sha256": "0a101dc83860b4676bc29ad7129657288f35895be3d87923ca329e98bbe71f7d",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk.pkl",
+      "source_sha256": "0a101dc83860b4676bc29ad7129657288f35895be3d87923ca329e98bbe71f7d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk.poses.jpg",
+      "bytes": 323382,
+      "sha256": "7f37643ed95a0f663a4afaf166d612dcab567cd09d2cb7d30b6e5e428a6c489a",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk.poses.jpg",
+      "source_sha256": "7f37643ed95a0f663a4afaf166d612dcab567cd09d2cb7d30b6e5e428a6c489a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk.validation.json",
+      "bytes": 399,
+      "sha256": "4a843a4a5e042b217f2a1891d149d8707d0f77eae7ea1ea8f9ddc1fde10d738f",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk.validation.json",
+      "source_sha256": "4a843a4a5e042b217f2a1891d149d8707d0f77eae7ea1ea8f9ddc1fde10d738f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.compare.jpg",
+      "bytes": 113065,
+      "sha256": "ffc2e9dadb021f2b2a6f03ed6dfecc1743c99d4b24d14ea3bbeb2ec4d80a69c0",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.compare.jpg",
+      "source_sha256": "ffc2e9dadb021f2b2a6f03ed6dfecc1743c99d4b24d14ea3bbeb2ec4d80a69c0",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.compare.mp4",
+      "bytes": 10294383,
+      "sha256": "9673edaccf40d7bf904a986dba3373eba3fca31a750d9eb239d46c3f92041032",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.compare.mp4",
+      "source_sha256": "9673edaccf40d7bf904a986dba3373eba3fca31a750d9eb239d46c3f92041032",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 1280,
+        "height": 960,
+        "avg_frame_rate": "299/10",
+        "duration": "7.625418",
+        "nb_frames": "228"
+      }
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.comparison.json",
+      "bytes": 3140,
+      "sha256": "e791bd227b725b13a7a359c4272930311e0fc0cce77becd221f6e2fb37c8a374",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.comparison.json",
+      "source_sha256": "702b542be23703a0256408672b2a58c4cbf7bfca4dbafaf5b3ad871dd8bbe816",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.contacts.json",
+      "bytes": 11295,
+      "sha256": "35eb3c304fb225f78e6c2da62613581bf46f954bd8b7bda11f599792c24f1557",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.contacts.json",
+      "source_sha256": "6ce72521388857f485a3dbadc78020940e8174afb1de8d2265f2835f9bc49359",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.pkl",
+      "bytes": 49558,
+      "sha256": "5817607d66f51ec1536e309ecb3e677259f748fee1b1fdc083fd340d94a81f7b",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.pkl",
+      "source_sha256": "5817607d66f51ec1536e309ecb3e677259f748fee1b1fdc083fd340d94a81f7b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.poses.jpg",
+      "bytes": 323690,
+      "sha256": "86fd859d00e705c93326eeeaf7dd74122570981fc438a90591daf037820f4034",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.poses.jpg",
+      "source_sha256": "86fd859d00e705c93326eeeaf7dd74122570981fc438a90591daf037820f4034",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_rigid_torso/walk_v2.validation.json",
+      "bytes": 397,
+      "sha256": "ecdf601eb84407ec472a7b9a1f2070958c082cefdd1484480fd77aac9ac379b1",
+      "source_label": "GMR/retargeting_data/mos_rigid_torso/walk_v2.validation.json",
+      "source_sha256": "ecdf601eb84407ec472a7b9a1f2070958c082cefdd1484480fd77aac9ac379b1",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_virtual_waist/comparison.jpg",
+      "bytes": 113701,
+      "sha256": "6dd19313c169d4516ba00b7afd6eb67818efa106403daea4c59523e88ea57e96",
+      "source_label": "GMR/retargeting_data/mos_virtual_waist/comparison.jpg",
+      "source_sha256": "6dd19313c169d4516ba00b7afd6eb67818efa106403daea4c59523e88ea57e96",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_virtual_waist/comparison.mp4",
+      "bytes": 10346636,
+      "sha256": "2918f716f608a1c4d98ab460e6be9a62081fba5253559f2eec21284e4b5d4834",
+      "source_label": "GMR/retargeting_data/mos_virtual_waist/comparison.mp4",
+      "source_sha256": "2918f716f608a1c4d98ab460e6be9a62081fba5253559f2eec21284e4b5d4834",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 1280,
+        "height": 960,
+        "avg_frame_rate": "299/10",
+        "duration": "7.625418",
+        "nb_frames": "228"
+      }
+    },
+    {
+      "path": "motions/gmr/mos_virtual_waist/comparison.npz",
+      "bytes": 103012,
+      "sha256": "0a88e521ae03882755db795b5a017f2ffe719658ebf87802847302da0dc5e0dc",
+      "source_label": "GMR/retargeting_data/mos_virtual_waist/comparison.npz",
+      "source_sha256": "0a88e521ae03882755db795b5a017f2ffe719658ebf87802847302da0dc5e0dc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "motions/gmr/mos_virtual_waist/model.xml",
+      "bytes": 19185,
+      "sha256": "daf7eb5db1829252d09ce9090f4c0cc6dd2e0fe6ad876f4a6148f2555703b171",
+      "source_label": "GMR/retargeting_data/mos_virtual_waist/model.xml",
+      "source_sha256": "0333167feac72c2a6098af4c8455ac99a80518a69375612d929898e6d37ecca9",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "motions/gmr/mos_virtual_waist/report.json",
+      "bytes": 2170,
+      "sha256": "4e06e304342dc692afbd87bb089906f8f0739895832d3c799910fdd7fcfa39c0",
+      "source_label": "GMR/retargeting_data/mos_virtual_waist/report.json",
+      "source_sha256": "0f102dbac2e0f8ec1ab0e74cb4526a9d4dadf43377b3813b694eb25bd98fb5e8",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "checkpoints/k1_dance/model_29999.pt",
+      "bytes": 6290631,
+      "sha256": "987222edbdfbc37e2a7509cf744b162060f5585505b6031b1fcb435366d6de41",
+      "source_label": "BoosterTrain/logs/rsl_rl/k1_dance_8/2026-08-20_20-30-21_l20_gpu1_resume/model_29999.pt",
+      "source_sha256": "987222edbdfbc37e2a7509cf744b162060f5585505b6031b1fcb435366d6de41",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "checkpoints/k1_dance/params/agent.yaml",
+      "bytes": 1210,
+      "sha256": "c9774f7ea1d48b198332459dc0b5a35e3d3a1205dcb2717efd3048c88ce7a789",
+      "source_label": "BoosterTrain/logs/rsl_rl/k1_dance_8/2026-08-20_20-30-21_l20_gpu1_resume/params/agent.yaml",
+      "source_sha256": "c9774f7ea1d48b198332459dc0b5a35e3d3a1205dcb2717efd3048c88ce7a789",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "checkpoints/k1_dance/params/env.yaml",
+      "bytes": 37619,
+      "sha256": "a47b9d3c8aeaaff2010b7a24e3fe510251337196c98e3567f4c44cee0e600133",
+      "source_label": "BoosterTrain/logs/rsl_rl/k1_dance_8/2026-08-20_20-30-21_l20_gpu1_resume/params/env.yaml",
+      "source_sha256": "ecfe398723a56835b988bb154114a0337bb8a4cd3d708984b6abdbc010bd29b1",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "checkpoints/mos_walk_rigid_v2/model_24000.pt",
+      "bytes": 6552327,
+      "sha256": "c2a393163aa8869709ee016cd86cc999281ae7180092991613d48d9dc0338c35",
+      "source_label": "BoosterTrain/logs/rsl_rl/mos_walk_rigid_v2/2026-09-19_14-05-00_mos_walk_rigid_v2_1gpu_from_scratch/model_24000.pt",
+      "source_sha256": "c2a393163aa8869709ee016cd86cc999281ae7180092991613d48d9dc0338c35",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "checkpoints/mos_walk_rigid_v2/params/agent.yaml",
+      "bytes": 1205,
+      "sha256": "af836cb3f7dfe93091f952a821cd367c4500e78a3eee165f87105d1bfa96c83d",
+      "source_label": "BoosterTrain/logs/rsl_rl/mos_walk_rigid_v2/2026-09-19_14-05-00_mos_walk_rigid_v2_1gpu_from_scratch/params/agent.yaml",
+      "source_sha256": "af836cb3f7dfe93091f952a821cd367c4500e78a3eee165f87105d1bfa96c83d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "checkpoints/mos_walk_rigid_v2/params/env.yaml",
+      "bytes": 31339,
+      "sha256": "5d95e39a1550eae21e4be2b9411e85c0fb85a1ac2762fe91eacfa9bdd09fc637",
+      "source_label": "BoosterTrain/logs/rsl_rl/mos_walk_rigid_v2/2026-09-19_14-05-00_mos_walk_rigid_v2_1gpu_from_scratch/params/env.yaml",
+      "source_sha256": "9d10b999429e4d2d3c97807b511e407463c6de660a05e21a3645a161454b4d75",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "robots/k1/retargeting/K1_serial.urdf",
+      "bytes": 29738,
+      "sha256": "80805a31f4f21add9c8cc3e67798720858c4ef8da41826842aa7a49a77029610",
+      "source_label": "GMR/assets/booster_k1/K1_serial.urdf",
+      "source_sha256": "80805a31f4f21add9c8cc3e67798720858c4ef8da41826842aa7a49a77029610",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/K1_serial.xml",
+      "bytes": 17070,
+      "sha256": "8d3429c3271163050fdd20c5eef0f7ffeada1ffb4be2784e1039cbb067cb48da",
+      "source_label": "GMR/assets/booster_k1/K1_serial.xml",
+      "source_sha256": "8d3429c3271163050fdd20c5eef0f7ffeada1ffb4be2784e1039cbb067cb48da",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Head_1.STL",
+      "bytes": 509184,
+      "sha256": "9ab00ca2c2ae9b27cdd54cdbbe7d9e50b1873f5815163aef5d719beceb445c96",
+      "source_label": "GMR/assets/booster_k1/meshes/Head_1.STL",
+      "source_sha256": "9ab00ca2c2ae9b27cdd54cdbbe7d9e50b1873f5815163aef5d719beceb445c96",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Head_2.STL",
+      "bytes": 1648984,
+      "sha256": "37f25818c86ee6f5c69be6e8bbea670aae46814834f8f74ba460945d2c0e084b",
+      "source_label": "GMR/assets/booster_k1/meshes/Head_2.STL",
+      "source_sha256": "37f25818c86ee6f5c69be6e8bbea670aae46814834f8f74ba460945d2c0e084b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Ankle_Cross.STL",
+      "bytes": 105984,
+      "sha256": "1798cb3b9721d82c913ce4b0080da9c0eaa69749445bc4a8d6f13dc6a69da232",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Ankle_Cross.STL",
+      "source_sha256": "1798cb3b9721d82c913ce4b0080da9c0eaa69749445bc4a8d6f13dc6a69da232",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Arm_1.STL",
+      "bytes": 142584,
+      "sha256": "e1a6de4b34f17260daa09b81aa3bc115d450787b808190aca286073b45540775",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Arm_1.STL",
+      "source_sha256": "e1a6de4b34f17260daa09b81aa3bc115d450787b808190aca286073b45540775",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Arm_2.STL",
+      "bytes": 1258184,
+      "sha256": "b5861bc9f6119baf50f131bbc4f6420867e63c7c1de31792d1e788cac70ad8ae",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Arm_2.STL",
+      "source_sha256": "b5861bc9f6119baf50f131bbc4f6420867e63c7c1de31792d1e788cac70ad8ae",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Arm_3.STL",
+      "bytes": 147484,
+      "sha256": "5424bdfedad4e70edc2dab6587bf0062c44489768c6e53ba4c2e58d700267f78",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Arm_3.STL",
+      "source_sha256": "5424bdfedad4e70edc2dab6587bf0062c44489768c6e53ba4c2e58d700267f78",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Arm_4.STL",
+      "bytes": 117584,
+      "sha256": "e7de1dc79b85b23792eaf8d49688891876f46b4eab7234f2513ae9e241a72b14",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Arm_4.STL",
+      "source_sha256": "e7de1dc79b85b23792eaf8d49688891876f46b4eab7234f2513ae9e241a72b14",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Foot.STL",
+      "bytes": 661684,
+      "sha256": "8dd6582601ad0679683b2c3cb4253adf630893ac43f3a131c62dd75c3d9d9a74",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Foot.STL",
+      "source_sha256": "8dd6582601ad0679683b2c3cb4253adf630893ac43f3a131c62dd75c3d9d9a74",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Hip_Pitch.STL",
+      "bytes": 132784,
+      "sha256": "ca604e643aaf41ec4d05c8a13ff66ce39587f9d80be7268376c2a6368decd55f",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Hip_Pitch.STL",
+      "source_sha256": "ca604e643aaf41ec4d05c8a13ff66ce39587f9d80be7268376c2a6368decd55f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Hip_Roll.STL",
+      "bytes": 37584,
+      "sha256": "aa278205ca751295c3d073ca3ddf682762a66218e6e5f239a22109b1d8f5ecf9",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Hip_Roll.STL",
+      "source_sha256": "aa278205ca751295c3d073ca3ddf682762a66218e6e5f239a22109b1d8f5ecf9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Hip_Yaw.STL",
+      "bytes": 211384,
+      "sha256": "2d8ed37c3a7c954937d5e3b462869f93292e4c4b76047fd4667380fedd3d66d2",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Hip_Yaw.STL",
+      "source_sha256": "2d8ed37c3a7c954937d5e3b462869f93292e4c4b76047fd4667380fedd3d66d2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Left_Shank.STL",
+      "bytes": 314184,
+      "sha256": "0e99f5850ba752492a7d5fa0fb066efae03823cb4020e7e57a38e652a34be85c",
+      "source_label": "GMR/assets/booster_k1/meshes/Left_Shank.STL",
+      "source_sha256": "0e99f5850ba752492a7d5fa0fb066efae03823cb4020e7e57a38e652a34be85c",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Ankle_Cross.STL",
+      "bytes": 105984,
+      "sha256": "fd59798e9b4b55661372b601db3dbec9ef5567256b631c3d679a2e3446638256",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Ankle_Cross.STL",
+      "source_sha256": "fd59798e9b4b55661372b601db3dbec9ef5567256b631c3d679a2e3446638256",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Arm_1.STL",
+      "bytes": 142084,
+      "sha256": "1dc1518437d0b2de09d7c559d13f620ee4910b985ca0b70cb387f29fad67a7d6",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Arm_1.STL",
+      "source_sha256": "1dc1518437d0b2de09d7c559d13f620ee4910b985ca0b70cb387f29fad67a7d6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Arm_2.STL",
+      "bytes": 1222784,
+      "sha256": "2f7f4bf14aac5fdb06974c2336be24b5f5577b069a6e0a36e98a443779bb15cc",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Arm_2.STL",
+      "source_sha256": "2f7f4bf14aac5fdb06974c2336be24b5f5577b069a6e0a36e98a443779bb15cc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Arm_3.STL",
+      "bytes": 216234,
+      "sha256": "e3ae9cbd20736f4c3b29b2a455b07d8a59e6c093258d467fc20ecd4dc4b7486d",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Arm_3.STL",
+      "source_sha256": "e3ae9cbd20736f4c3b29b2a455b07d8a59e6c093258d467fc20ecd4dc4b7486d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Arm_4.STL",
+      "bytes": 117884,
+      "sha256": "4a70e0006cc89bfeacb9b825821cdf715113b9cf7d267de6fe4b64ad3e5b9aad",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Arm_4.STL",
+      "source_sha256": "4a70e0006cc89bfeacb9b825821cdf715113b9cf7d267de6fe4b64ad3e5b9aad",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Foot.STL",
+      "bytes": 661684,
+      "sha256": "09d148b13607357b9624087f97313ca7629113cc13ea8f31dd11f92aacabd5cb",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Foot.STL",
+      "source_sha256": "09d148b13607357b9624087f97313ca7629113cc13ea8f31dd11f92aacabd5cb",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Hip_Pitch.STL",
+      "bytes": 132784,
+      "sha256": "ab6052ca8f6a2ddf75ad536e3daf51024cbd8f6b9fa5ca36a8ac966347d850ac",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Hip_Pitch.STL",
+      "source_sha256": "ab6052ca8f6a2ddf75ad536e3daf51024cbd8f6b9fa5ca36a8ac966347d850ac",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Hip_Roll.STL",
+      "bytes": 37584,
+      "sha256": "9655e49b0ae12366eb8dba28dcc9593d63d6ec7a8431d90dc692041c8bb74765",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Hip_Roll.STL",
+      "source_sha256": "9655e49b0ae12366eb8dba28dcc9593d63d6ec7a8431d90dc692041c8bb74765",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Hip_Yaw.STL",
+      "bytes": 211284,
+      "sha256": "dd54f3cd1cdbaead210692a4cd4e131a1b696ceefd9715ab1eb6a8e9f44d88aa",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Hip_Yaw.STL",
+      "source_sha256": "dd54f3cd1cdbaead210692a4cd4e131a1b696ceefd9715ab1eb6a8e9f44d88aa",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Right_Shank.STL",
+      "bytes": 314284,
+      "sha256": "6a7e831055148894ba623bf8d2eca27f2cef32e324819566c39e33cb12c0b4f9",
+      "source_label": "GMR/assets/booster_k1/meshes/Right_Shank.STL",
+      "source_sha256": "6a7e831055148894ba623bf8d2eca27f2cef32e324819566c39e33cb12c0b4f9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/retargeting/meshes/Trunk.STL",
+      "bytes": 356484,
+      "sha256": "6c2fc1adb1d3d23c081b6cebab1a4d1da57adbd726d6e72c143281ba696ddd5d",
+      "source_label": "GMR/assets/booster_k1/meshes/Trunk.STL",
+      "source_sha256": "6c2fc1adb1d3d23c081b6cebab1a4d1da57adbd726d6e72c143281ba696ddd5d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/K1_22dof.urdf",
+      "bytes": 28009,
+      "sha256": "9312ecc9dbd2424247d9d74c86eeb478e738dd994c787fd42116f4a4615e0a01",
+      "source_label": "BoosterAssets/robots/K1/K1_22dof.urdf",
+      "source_sha256": "9312ecc9dbd2424247d9d74c86eeb478e738dd994c787fd42116f4a4615e0a01",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/K1_22dof.xml",
+      "bytes": 17808,
+      "sha256": "51954b1317d1afd386da28a5b28ebe7a536d79b94ded8ab61358daa3ab50bf83",
+      "source_label": "BoosterAssets/robots/K1/K1_22dof.xml",
+      "source_sha256": "51954b1317d1afd386da28a5b28ebe7a536d79b94ded8ab61358daa3ab50bf83",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Head_1.STL",
+      "bytes": 509184,
+      "sha256": "9ab00ca2c2ae9b27cdd54cdbbe7d9e50b1873f5815163aef5d719beceb445c96",
+      "source_label": "BoosterAssets/robots/K1/meshes/Head_1.STL",
+      "source_sha256": "9ab00ca2c2ae9b27cdd54cdbbe7d9e50b1873f5815163aef5d719beceb445c96",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Head_2.STL",
+      "bytes": 1502334,
+      "sha256": "ae8f81b864fd0f16efaab6b0ee697a0fd80e54c2bd38f48526a326bc03085020",
+      "source_label": "BoosterAssets/robots/K1/meshes/Head_2.STL",
+      "source_sha256": "ae8f81b864fd0f16efaab6b0ee697a0fd80e54c2bd38f48526a326bc03085020",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/K1logo.STL",
+      "bytes": 150584,
+      "sha256": "93aab425a2e953fdd1c704ce9d9a4fb8d8431da9cc0cc4d2648838b11c47b487",
+      "source_label": "BoosterAssets/robots/K1/meshes/K1logo.STL",
+      "source_sha256": "93aab425a2e953fdd1c704ce9d9a4fb8d8431da9cc0cc4d2648838b11c47b487",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Ankle_Cross.STL",
+      "bytes": 105984,
+      "sha256": "1798cb3b9721d82c913ce4b0080da9c0eaa69749445bc4a8d6f13dc6a69da232",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Ankle_Cross.STL",
+      "source_sha256": "1798cb3b9721d82c913ce4b0080da9c0eaa69749445bc4a8d6f13dc6a69da232",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Arm_1.STL",
+      "bytes": 142584,
+      "sha256": "e1a6de4b34f17260daa09b81aa3bc115d450787b808190aca286073b45540775",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Arm_1.STL",
+      "source_sha256": "e1a6de4b34f17260daa09b81aa3bc115d450787b808190aca286073b45540775",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Arm_2.STL",
+      "bytes": 1258184,
+      "sha256": "b5861bc9f6119baf50f131bbc4f6420867e63c7c1de31792d1e788cac70ad8ae",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Arm_2.STL",
+      "source_sha256": "b5861bc9f6119baf50f131bbc4f6420867e63c7c1de31792d1e788cac70ad8ae",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Arm_3.STL",
+      "bytes": 147484,
+      "sha256": "5424bdfedad4e70edc2dab6587bf0062c44489768c6e53ba4c2e58d700267f78",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Arm_3.STL",
+      "source_sha256": "5424bdfedad4e70edc2dab6587bf0062c44489768c6e53ba4c2e58d700267f78",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Arm_4.STL",
+      "bytes": 117584,
+      "sha256": "e7de1dc79b85b23792eaf8d49688891876f46b4eab7234f2513ae9e241a72b14",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Arm_4.STL",
+      "source_sha256": "e7de1dc79b85b23792eaf8d49688891876f46b4eab7234f2513ae9e241a72b14",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Foot.STL",
+      "bytes": 2244834,
+      "sha256": "1a391f4b3b87a27726e09f15f6d2ce7795c702c13c0d76307d4756d8aeaadde3",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Foot.STL",
+      "source_sha256": "1a391f4b3b87a27726e09f15f6d2ce7795c702c13c0d76307d4756d8aeaadde3",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Hip_Pitch.STL",
+      "bytes": 132784,
+      "sha256": "ca604e643aaf41ec4d05c8a13ff66ce39587f9d80be7268376c2a6368decd55f",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Hip_Pitch.STL",
+      "source_sha256": "ca604e643aaf41ec4d05c8a13ff66ce39587f9d80be7268376c2a6368decd55f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Hip_Roll.STL",
+      "bytes": 37584,
+      "sha256": "aa278205ca751295c3d073ca3ddf682762a66218e6e5f239a22109b1d8f5ecf9",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Hip_Roll.STL",
+      "source_sha256": "aa278205ca751295c3d073ca3ddf682762a66218e6e5f239a22109b1d8f5ecf9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Hip_Yaw.STL",
+      "bytes": 211384,
+      "sha256": "2d8ed37c3a7c954937d5e3b462869f93292e4c4b76047fd4667380fedd3d66d2",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Hip_Yaw.STL",
+      "source_sha256": "2d8ed37c3a7c954937d5e3b462869f93292e4c4b76047fd4667380fedd3d66d2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Left_Shank.STL",
+      "bytes": 314184,
+      "sha256": "0e99f5850ba752492a7d5fa0fb066efae03823cb4020e7e57a38e652a34be85c",
+      "source_label": "BoosterAssets/robots/K1/meshes/Left_Shank.STL",
+      "source_sha256": "0e99f5850ba752492a7d5fa0fb066efae03823cb4020e7e57a38e652a34be85c",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Ankle_Cross.STL",
+      "bytes": 105984,
+      "sha256": "fd59798e9b4b55661372b601db3dbec9ef5567256b631c3d679a2e3446638256",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Ankle_Cross.STL",
+      "source_sha256": "fd59798e9b4b55661372b601db3dbec9ef5567256b631c3d679a2e3446638256",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Arm_1.STL",
+      "bytes": 142084,
+      "sha256": "1dc1518437d0b2de09d7c559d13f620ee4910b985ca0b70cb387f29fad67a7d6",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Arm_1.STL",
+      "source_sha256": "1dc1518437d0b2de09d7c559d13f620ee4910b985ca0b70cb387f29fad67a7d6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Arm_2.STL",
+      "bytes": 1222784,
+      "sha256": "2f7f4bf14aac5fdb06974c2336be24b5f5577b069a6e0a36e98a443779bb15cc",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Arm_2.STL",
+      "source_sha256": "2f7f4bf14aac5fdb06974c2336be24b5f5577b069a6e0a36e98a443779bb15cc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Arm_3.STL",
+      "bytes": 216234,
+      "sha256": "e3ae9cbd20736f4c3b29b2a455b07d8a59e6c093258d467fc20ecd4dc4b7486d",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Arm_3.STL",
+      "source_sha256": "e3ae9cbd20736f4c3b29b2a455b07d8a59e6c093258d467fc20ecd4dc4b7486d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Arm_4.STL",
+      "bytes": 117884,
+      "sha256": "4a70e0006cc89bfeacb9b825821cdf715113b9cf7d267de6fe4b64ad3e5b9aad",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Arm_4.STL",
+      "source_sha256": "4a70e0006cc89bfeacb9b825821cdf715113b9cf7d267de6fe4b64ad3e5b9aad",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Foot.STL",
+      "bytes": 2245984,
+      "sha256": "059b969922a9a31eb40828206070731d3612453f3aa3c2559702c566abb4b0fd",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Foot.STL",
+      "source_sha256": "059b969922a9a31eb40828206070731d3612453f3aa3c2559702c566abb4b0fd",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Hip_Pitch.STL",
+      "bytes": 132784,
+      "sha256": "ab6052ca8f6a2ddf75ad536e3daf51024cbd8f6b9fa5ca36a8ac966347d850ac",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Hip_Pitch.STL",
+      "source_sha256": "ab6052ca8f6a2ddf75ad536e3daf51024cbd8f6b9fa5ca36a8ac966347d850ac",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Hip_Roll.STL",
+      "bytes": 37584,
+      "sha256": "9655e49b0ae12366eb8dba28dcc9593d63d6ec7a8431d90dc692041c8bb74765",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Hip_Roll.STL",
+      "source_sha256": "9655e49b0ae12366eb8dba28dcc9593d63d6ec7a8431d90dc692041c8bb74765",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Hip_Yaw.STL",
+      "bytes": 211284,
+      "sha256": "dd54f3cd1cdbaead210692a4cd4e131a1b696ceefd9715ab1eb6a8e9f44d88aa",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Hip_Yaw.STL",
+      "source_sha256": "dd54f3cd1cdbaead210692a4cd4e131a1b696ceefd9715ab1eb6a8e9f44d88aa",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Right_Shank.STL",
+      "bytes": 314284,
+      "sha256": "6a7e831055148894ba623bf8d2eca27f2cef32e324819566c39e33cb12c0b4f9",
+      "source_label": "BoosterAssets/robots/K1/meshes/Right_Shank.STL",
+      "source_sha256": "6a7e831055148894ba623bf8d2eca27f2cef32e324819566c39e33cb12c0b4f9",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/k1/training/meshes/Trunk.STL",
+      "bytes": 356484,
+      "sha256": "6c2fc1adb1d3d23c081b6cebab1a4d1da57adbd726d6e72c143281ba696ddd5d",
+      "source_label": "BoosterAssets/robots/K1/meshes/Trunk.STL",
+      "source_sha256": "6c2fc1adb1d3d23c081b6cebab1a4d1da57adbd726d6e72c143281ba696ddd5d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/MOS9.2.xml",
+      "bytes": 18867,
+      "sha256": "daf443acc09a9924d9e0d47a76aab49581a0604dd9c9e7b30b188f15f7642f3b",
+      "source_label": "GMR/assets/mos/MOS9.2.xml",
+      "source_sha256": "daf443acc09a9924d9e0d47a76aab49581a0604dd9c9e7b30b188f15f7642f3b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lankle.stl",
+      "bytes": 685984,
+      "sha256": "ea70f65c59c1a06d164927efcb2cd3801140e7edc2a35131a68687eca4a60ff4",
+      "source_label": "GMR/assets/mos/meshes/Lankle.stl",
+      "source_sha256": "ea70f65c59c1a06d164927efcb2cd3801140e7edc2a35131a68687eca4a60ff4",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Larm.stl",
+      "bytes": 1500084,
+      "sha256": "d0d6b06c0516a14019dbd897df8567760c77dc9620071ed10deda4c1660dbbc4",
+      "source_label": "GMR/assets/mos/meshes/Larm.stl",
+      "source_sha256": "d0d6b06c0516a14019dbd897df8567760c77dc9620071ed10deda4c1660dbbc4",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lfoot.stl",
+      "bytes": 1483684,
+      "sha256": "5b8c580b46f8db816068ecdaf8c4fc6a0f97a2ecfdb837e1d7968c3cadae956f",
+      "source_label": "GMR/assets/mos/meshes/Lfoot.stl",
+      "source_sha256": "5b8c580b46f8db816068ecdaf8c4fc6a0f97a2ecfdb837e1d7968c3cadae956f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lhand.stl",
+      "bytes": 528484,
+      "sha256": "ecb568ef1eb5f82ad9036dde6842144b28a7c8e87a7b006370c4fcaee54b13af",
+      "source_label": "GMR/assets/mos/meshes/Lhand.stl",
+      "source_sha256": "ecb568ef1eb5f82ad9036dde6842144b28a7c8e87a7b006370c4fcaee54b13af",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lhip.stl",
+      "bytes": 1500084,
+      "sha256": "d8203bc0ebf986882e5017eb3f3be831bba4b880072be6f0c37171e5863c0f3a",
+      "source_label": "GMR/assets/mos/meshes/Lhip.stl",
+      "source_sha256": "d8203bc0ebf986882e5017eb3f3be831bba4b880072be6f0c37171e5863c0f3a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Llap.stl",
+      "bytes": 661884,
+      "sha256": "32a32a51f308823dbc8727fb0a7ea176007aa77817e47fb00fe03f63e82c023b",
+      "source_label": "GMR/assets/mos/meshes/Llap.stl",
+      "source_sha256": "32a32a51f308823dbc8727fb0a7ea176007aa77817e47fb00fe03f63e82c023b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lleg1.stl",
+      "bytes": 1500084,
+      "sha256": "31d8e035e3d73a69cba43ea8fccf0e5ed20677f1fa3b50509369fa48bd0e44c3",
+      "source_label": "GMR/assets/mos/meshes/Lleg1.stl",
+      "source_sha256": "31d8e035e3d73a69cba43ea8fccf0e5ed20677f1fa3b50509369fa48bd0e44c3",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lleg2.stl",
+      "bytes": 1500084,
+      "sha256": "4a4303ad68cc6324aef93812f2aef02601b6f048aa09ce335249ded6d897c7bd",
+      "source_label": "GMR/assets/mos/meshes/Lleg2.stl",
+      "source_sha256": "4a4303ad68cc6324aef93812f2aef02601b6f048aa09ce335249ded6d897c7bd",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Lshoulder.stl",
+      "bytes": 1500084,
+      "sha256": "3235d6e04b0720b134f7da48e1c0dfb5b5c874569625848f546b446b48586cb6",
+      "source_label": "GMR/assets/mos/meshes/Lshoulder.stl",
+      "source_sha256": "3235d6e04b0720b134f7da48e1c0dfb5b5c874569625848f546b446b48586cb6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rankle.stl",
+      "bytes": 685984,
+      "sha256": "b5cee3df7d100b1e4439bad1617f92d191c344addfc2791370b96b0b21d845e7",
+      "source_label": "GMR/assets/mos/meshes/Rankle.stl",
+      "source_sha256": "b5cee3df7d100b1e4439bad1617f92d191c344addfc2791370b96b0b21d845e7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rarm.stl",
+      "bytes": 1500084,
+      "sha256": "f9266698e13cebd74173ffb595952a54ab375eb3d9ac98d4fe34f4125eb83a85",
+      "source_label": "GMR/assets/mos/meshes/Rarm.stl",
+      "source_sha256": "f9266698e13cebd74173ffb595952a54ab375eb3d9ac98d4fe34f4125eb83a85",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rfoot.stl",
+      "bytes": 1483684,
+      "sha256": "b4b828041b7f9162bba560bb6018e383450b289e4212f195d54a8e150a7bf441",
+      "source_label": "GMR/assets/mos/meshes/Rfoot.stl",
+      "source_sha256": "b4b828041b7f9162bba560bb6018e383450b289e4212f195d54a8e150a7bf441",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rhand.stl",
+      "bytes": 528484,
+      "sha256": "f02f94646d3cc80b9b28efdbc66172232b82d2d6e53ccce14b5b8117130c7402",
+      "source_label": "GMR/assets/mos/meshes/Rhand.stl",
+      "source_sha256": "f02f94646d3cc80b9b28efdbc66172232b82d2d6e53ccce14b5b8117130c7402",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rhip.stl",
+      "bytes": 1500084,
+      "sha256": "87cd34fae01c79dc780bfc12d139387429c2054e33ebcfbe71f434a5dba6f4bc",
+      "source_label": "GMR/assets/mos/meshes/Rhip.stl",
+      "source_sha256": "87cd34fae01c79dc780bfc12d139387429c2054e33ebcfbe71f434a5dba6f4bc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rlap.stl",
+      "bytes": 661884,
+      "sha256": "1ff321fd7f1d13b317f9eba5f4d556f9cb541ecd33016073b300a2e02e94f4c2",
+      "source_label": "GMR/assets/mos/meshes/Rlap.stl",
+      "source_sha256": "1ff321fd7f1d13b317f9eba5f4d556f9cb541ecd33016073b300a2e02e94f4c2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rleg1.stl",
+      "bytes": 1500084,
+      "sha256": "d0ca07919c35351de8ae2669ce3b156852df552b35b31c5c3066c7687c463868",
+      "source_label": "GMR/assets/mos/meshes/Rleg1.stl",
+      "source_sha256": "d0ca07919c35351de8ae2669ce3b156852df552b35b31c5c3066c7687c463868",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rleg2.stl",
+      "bytes": 1500084,
+      "sha256": "6c8304e3eccf92b625c5af4203587db8789b72ec02a6f30ffc1a0c9fc1e72c38",
+      "source_label": "GMR/assets/mos/meshes/Rleg2.stl",
+      "source_sha256": "6c8304e3eccf92b625c5af4203587db8789b72ec02a6f30ffc1a0c9fc1e72c38",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/Rshoulder.stl",
+      "bytes": 1500084,
+      "sha256": "b44f27f9a6b9371d90c602b96d61d64fd352fc66d3f1a9179549632d407c6dd6",
+      "source_label": "GMR/assets/mos/meshes/Rshoulder.stl",
+      "source_sha256": "b44f27f9a6b9371d90c602b96d61d64fd352fc66d3f1a9179549632d407c6dd6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/body.stl",
+      "bytes": 1500084,
+      "sha256": "734353bf134fa15e9cd1aa554b1c02956ba9cf375c7581d4f770454fa24eb20e",
+      "source_label": "GMR/assets/mos/meshes/body.stl",
+      "source_sha256": "734353bf134fa15e9cd1aa554b1c02956ba9cf375c7581d4f770454fa24eb20e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/head.stl",
+      "bytes": 1149484,
+      "sha256": "1bcda454c8fd8aa162fba43abd43a7f257fb939391703b70f222b61c6b6faff5",
+      "source_label": "GMR/assets/mos/meshes/head.stl",
+      "source_sha256": "1bcda454c8fd8aa162fba43abd43a7f257fb939391703b70f222b61c6b6faff5",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/meshes/neck.stl",
+      "bytes": 1500084,
+      "sha256": "a6acc10eb544de10905bc6478a656888886ec61170089199c4507ad7e02b80b8",
+      "source_label": "GMR/assets/mos/meshes/neck.stl",
+      "source_sha256": "a6acc10eb544de10905bc6478a656888886ec61170089199c4507ad7e02b80b8",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/k1_matching_scene.png",
+      "bytes": 106524,
+      "sha256": "074e2804316b96d9efe52d46faf8c7ac4fd070760a8a90273e763da16a0a8ef2",
+      "source_label": "GMR/assets/mos/validation/k1_matching_scene.png",
+      "source_sha256": "074e2804316b96d9efe52d46faf8c7ac4fd070760a8a90273e763da16a0a8ef2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/neutral_front.png",
+      "bytes": 47264,
+      "sha256": "a1a17695efbd220d12bb1e2411f5d4b5acb28449fadc408054eab53a4919802e",
+      "source_label": "GMR/assets/mos/validation/neutral_front.png",
+      "source_sha256": "a1a17695efbd220d12bb1e2411f5d4b5acb28449fadc408054eab53a4919802e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/neutral_side.png",
+      "bytes": 30187,
+      "sha256": "1028e9e1cb2915d209851ad08c4fa7c54a0f7e1d6d78a38e6306c5177134a054",
+      "source_label": "GMR/assets/mos/validation/neutral_side.png",
+      "source_sha256": "1028e9e1cb2915d209851ad08c4fa7c54a0f7e1d6d78a38e6306c5177134a054",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_calibrated_0.png",
+      "bytes": 44339,
+      "sha256": "fd7322f16ff838373c972d5eec7a077b7e9d2c2ce4cad8273ce75f2723dc712e",
+      "source_label": "GMR/assets/mos/validation/walk_calibrated_0.png",
+      "source_sha256": "fd7322f16ff838373c972d5eec7a077b7e9d2c2ce4cad8273ce75f2723dc712e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_calibrated_10.png",
+      "bytes": 42871,
+      "sha256": "8b9e617f4742734dd798755a4ce1ce220aef4718d18d39ba532683aa866b5279",
+      "source_label": "GMR/assets/mos/validation/walk_calibrated_10.png",
+      "source_sha256": "8b9e617f4742734dd798755a4ce1ce220aef4718d18d39ba532683aa866b5279",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_calibrated_20.png",
+      "bytes": 41372,
+      "sha256": "32e02527ec65992fd714a60f07586ebeda8911cd2e0ed4c853c35b0873f78d0a",
+      "source_label": "GMR/assets/mos/validation/walk_calibrated_20.png",
+      "source_sha256": "32e02527ec65992fd714a60f07586ebeda8911cd2e0ed4c853c35b0873f78d0a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_calibrated_39.png",
+      "bytes": 43242,
+      "sha256": "2c0ff92a49961a4444045d3c2fb611e8c336d1c03035e1ef3797f25ecedbb460",
+      "source_label": "GMR/assets/mos/validation/walk_calibrated_39.png",
+      "source_sha256": "2c0ff92a49961a4444045d3c2fb611e8c336d1c03035e1ef3797f25ecedbb460",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_cli_smoke.pkl",
+      "bytes": 49558,
+      "sha256": "14688bbd03554b38ccedadf5cd14d1ca984ee29fe99bd286e46bee8f1041d8e7",
+      "source_label": "GMR/assets/mos/validation/walk_cli_smoke.pkl",
+      "source_sha256": "14688bbd03554b38ccedadf5cd14d1ca984ee29fe99bd286e46bee8f1041d8e7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/retargeting/validation/walk_current_ik.png",
+      "bytes": 39163,
+      "sha256": "8d232af3136aac9cb40db33d7e520ad1e2be72c4b4a7afff1f5ca25818447e40",
+      "source_label": "GMR/assets/mos/validation/walk_current_ik.png",
+      "source_sha256": "8d232af3136aac9cb40db33d7e520ad1e2be72c4b4a7afff1f5ca25818447e40",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lankle.STL",
+      "bytes": 685984,
+      "sha256": "a63927b0facfcd22b9ef01660577de56e017eee333406f07cded1eb96ce3b82f",
+      "source_label": "MOS/meshes/Lankle.STL",
+      "source_sha256": "a63927b0facfcd22b9ef01660577de56e017eee333406f07cded1eb96ce3b82f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Larm.STL",
+      "bytes": 2912984,
+      "sha256": "92f411516577b5e62cb63a230abc04620e8a9ca36611e20310b29992e7533ae6",
+      "source_label": "MOS/meshes/Larm.STL",
+      "source_sha256": "92f411516577b5e62cb63a230abc04620e8a9ca36611e20310b29992e7533ae6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lfoot.STL",
+      "bytes": 1483684,
+      "sha256": "29073b3b1d43b890bc31d84c0404b98b0e06d3e1b2a864cf648c8c17ac9c076d",
+      "source_label": "MOS/meshes/Lfoot.STL",
+      "source_sha256": "29073b3b1d43b890bc31d84c0404b98b0e06d3e1b2a864cf648c8c17ac9c076d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lhand.STL",
+      "bytes": 528484,
+      "sha256": "0d726efafb704372da683dcfd96f0e725501b81ba1c95e1ab0191dcde517dec0",
+      "source_label": "MOS/meshes/Lhand.STL",
+      "source_sha256": "0d726efafb704372da683dcfd96f0e725501b81ba1c95e1ab0191dcde517dec0",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lhip.STL",
+      "bytes": 2960484,
+      "sha256": "8adf18194c6d8f0b7ca4639e9c804d346b51ad721aa478474b7b68f2fb8152ab",
+      "source_label": "MOS/meshes/Lhip.STL",
+      "source_sha256": "8adf18194c6d8f0b7ca4639e9c804d346b51ad721aa478474b7b68f2fb8152ab",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Llap.STL",
+      "bytes": 661884,
+      "sha256": "1573f73ec6a1e17797a100b25107a834b92ed1703e3b520b27ab188d7f77b22c",
+      "source_label": "MOS/meshes/Llap.STL",
+      "source_sha256": "1573f73ec6a1e17797a100b25107a834b92ed1703e3b520b27ab188d7f77b22c",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lleg1.STL",
+      "bytes": 5322984,
+      "sha256": "2e5ca7373adc6dcdca4cdb6639afa235b3696b9aea65b79e68d0e19cdea6cb05",
+      "source_label": "MOS/meshes/Lleg1.STL",
+      "source_sha256": "2e5ca7373adc6dcdca4cdb6639afa235b3696b9aea65b79e68d0e19cdea6cb05",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lleg2.STL",
+      "bytes": 2971384,
+      "sha256": "63c2dea95fdf26171cadb6e72cef4b6447597799b6e0145290ba71587f809a5d",
+      "source_label": "MOS/meshes/Lleg2.STL",
+      "source_sha256": "63c2dea95fdf26171cadb6e72cef4b6447597799b6e0145290ba71587f809a5d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Lshoulder.STL",
+      "bytes": 1665684,
+      "sha256": "9a7f19fb7d20cfe54c7c170d47c8609b98199af50b1b36bbc8482df16b2237ae",
+      "source_label": "MOS/meshes/Lshoulder.STL",
+      "source_sha256": "9a7f19fb7d20cfe54c7c170d47c8609b98199af50b1b36bbc8482df16b2237ae",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rankle.STL",
+      "bytes": 685984,
+      "sha256": "46ce286b538442c7973f41c523afc253c3d4a1157a12ae584e202fc0698d5ba2",
+      "source_label": "MOS/meshes/Rankle.STL",
+      "source_sha256": "46ce286b538442c7973f41c523afc253c3d4a1157a12ae584e202fc0698d5ba2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rarm.STL",
+      "bytes": 2912984,
+      "sha256": "9d36f77b45f10904b84a03e5ac9793406d2f059eb856d9aa524e26f869b7186d",
+      "source_label": "MOS/meshes/Rarm.STL",
+      "source_sha256": "9d36f77b45f10904b84a03e5ac9793406d2f059eb856d9aa524e26f869b7186d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rfoot.STL",
+      "bytes": 1483684,
+      "sha256": "1c422c7395c89d3a2223b2e5bd55d40287b8d06378515345e748d647a8f0b740",
+      "source_label": "MOS/meshes/Rfoot.STL",
+      "source_sha256": "1c422c7395c89d3a2223b2e5bd55d40287b8d06378515345e748d647a8f0b740",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rhand.STL",
+      "bytes": 528484,
+      "sha256": "32e243d23bf80d75c64c450510a2b6b751c02b734076c1cb3791ccfe95b196fb",
+      "source_label": "MOS/meshes/Rhand.STL",
+      "source_sha256": "32e243d23bf80d75c64c450510a2b6b751c02b734076c1cb3791ccfe95b196fb",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rhip.STL",
+      "bytes": 2960784,
+      "sha256": "eada12497b0ff6bf916aed2ea02f2421f25d6692cdc74cf0ad3ce7c63752c8fe",
+      "source_label": "MOS/meshes/Rhip.STL",
+      "source_sha256": "eada12497b0ff6bf916aed2ea02f2421f25d6692cdc74cf0ad3ce7c63752c8fe",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rlap.STL",
+      "bytes": 661884,
+      "sha256": "d63d5e28238085ab430ea9a5f5c260289037b78e7d21cd0c0974da426bd11ec2",
+      "source_label": "MOS/meshes/Rlap.STL",
+      "source_sha256": "d63d5e28238085ab430ea9a5f5c260289037b78e7d21cd0c0974da426bd11ec2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rleg1.STL",
+      "bytes": 5322584,
+      "sha256": "da62bcd21833f7375a7a00a387166c6df68e5e2c2fbc0f2034889f8b9206c121",
+      "source_label": "MOS/meshes/Rleg1.STL",
+      "source_sha256": "da62bcd21833f7375a7a00a387166c6df68e5e2c2fbc0f2034889f8b9206c121",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rleg2.STL",
+      "bytes": 2974484,
+      "sha256": "f7822e6ca58837eb3e71c920f69584206f41a89a1edbcbf9efa532b853d5630c",
+      "source_label": "MOS/meshes/Rleg2.STL",
+      "source_sha256": "f7822e6ca58837eb3e71c920f69584206f41a89a1edbcbf9efa532b853d5630c",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/Rshoulder.STL",
+      "bytes": 1665084,
+      "sha256": "034c99c9cd8935aec3ebb329f5ac61f6ce88c768e7a5cb029cf0d03ce0c357e8",
+      "source_label": "MOS/meshes/Rshoulder.STL",
+      "source_sha256": "034c99c9cd8935aec3ebb329f5ac61f6ce88c768e7a5cb029cf0d03ce0c357e8",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/body.STL",
+      "bytes": 19288984,
+      "sha256": "45c0aaa9e07d21a8dded7724fefc31b290976c3cd57d14cb7a0d2436d9613928",
+      "source_label": "MOS/meshes/body.STL",
+      "source_sha256": "45c0aaa9e07d21a8dded7724fefc31b290976c3cd57d14cb7a0d2436d9613928",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/head.STL",
+      "bytes": 1149484,
+      "sha256": "6e4dada44335712f155e01266766691f38061903b55e09bdb7d816557737363b",
+      "source_label": "MOS/meshes/head.STL",
+      "source_sha256": "6e4dada44335712f155e01266766691f38061903b55e09bdb7d816557737363b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/meshes/neck.STL",
+      "bytes": 1716784,
+      "sha256": "cbf45e79f8fe322e2e1a6060b1f54f0f5dd893b4f68237ad20ba93f97d14781b",
+      "source_label": "MOS/meshes/neck.STL",
+      "source_sha256": "cbf45e79f8fe322e2e1a6060b1f54f0f5dd893b4f68237ad20ba93f97d14781b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/source/urdf/MOS9.2_urdf_0308-4.urdf",
+      "bytes": 21548,
+      "sha256": "9386e7e31d9808dab37ea370171022f313a3cea384ac6f9e24ec82e1dd9f12d5",
+      "source_label": "MOS/urdf/MOS9.2_urdf_0308-4.urdf",
+      "source_sha256": "60ba30cdf199741565b5bfe12ab177296246af090cf9dcef723f5441ad1a6613",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "robots/mos/training/meshes/Lankle.stl",
+      "bytes": 685984,
+      "sha256": "ea70f65c59c1a06d164927efcb2cd3801140e7edc2a35131a68687eca4a60ff4",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lankle.stl",
+      "source_sha256": "ea70f65c59c1a06d164927efcb2cd3801140e7edc2a35131a68687eca4a60ff4",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Larm.stl",
+      "bytes": 1500084,
+      "sha256": "d0d6b06c0516a14019dbd897df8567760c77dc9620071ed10deda4c1660dbbc4",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Larm.stl",
+      "source_sha256": "d0d6b06c0516a14019dbd897df8567760c77dc9620071ed10deda4c1660dbbc4",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lfoot.stl",
+      "bytes": 1483684,
+      "sha256": "5b8c580b46f8db816068ecdaf8c4fc6a0f97a2ecfdb837e1d7968c3cadae956f",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lfoot.stl",
+      "source_sha256": "5b8c580b46f8db816068ecdaf8c4fc6a0f97a2ecfdb837e1d7968c3cadae956f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lhand.stl",
+      "bytes": 528484,
+      "sha256": "ecb568ef1eb5f82ad9036dde6842144b28a7c8e87a7b006370c4fcaee54b13af",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lhand.stl",
+      "source_sha256": "ecb568ef1eb5f82ad9036dde6842144b28a7c8e87a7b006370c4fcaee54b13af",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lhip.stl",
+      "bytes": 1500084,
+      "sha256": "d8203bc0ebf986882e5017eb3f3be831bba4b880072be6f0c37171e5863c0f3a",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lhip.stl",
+      "source_sha256": "d8203bc0ebf986882e5017eb3f3be831bba4b880072be6f0c37171e5863c0f3a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Llap.stl",
+      "bytes": 661884,
+      "sha256": "32a32a51f308823dbc8727fb0a7ea176007aa77817e47fb00fe03f63e82c023b",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Llap.stl",
+      "source_sha256": "32a32a51f308823dbc8727fb0a7ea176007aa77817e47fb00fe03f63e82c023b",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lleg1.stl",
+      "bytes": 1500084,
+      "sha256": "31d8e035e3d73a69cba43ea8fccf0e5ed20677f1fa3b50509369fa48bd0e44c3",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lleg1.stl",
+      "source_sha256": "31d8e035e3d73a69cba43ea8fccf0e5ed20677f1fa3b50509369fa48bd0e44c3",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lleg2.stl",
+      "bytes": 1500084,
+      "sha256": "4a4303ad68cc6324aef93812f2aef02601b6f048aa09ce335249ded6d897c7bd",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lleg2.stl",
+      "source_sha256": "4a4303ad68cc6324aef93812f2aef02601b6f048aa09ce335249ded6d897c7bd",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Lshoulder.stl",
+      "bytes": 1500084,
+      "sha256": "3235d6e04b0720b134f7da48e1c0dfb5b5c874569625848f546b446b48586cb6",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Lshoulder.stl",
+      "source_sha256": "3235d6e04b0720b134f7da48e1c0dfb5b5c874569625848f546b446b48586cb6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rankle.stl",
+      "bytes": 685984,
+      "sha256": "b5cee3df7d100b1e4439bad1617f92d191c344addfc2791370b96b0b21d845e7",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rankle.stl",
+      "source_sha256": "b5cee3df7d100b1e4439bad1617f92d191c344addfc2791370b96b0b21d845e7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rarm.stl",
+      "bytes": 1500084,
+      "sha256": "f9266698e13cebd74173ffb595952a54ab375eb3d9ac98d4fe34f4125eb83a85",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rarm.stl",
+      "source_sha256": "f9266698e13cebd74173ffb595952a54ab375eb3d9ac98d4fe34f4125eb83a85",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rfoot.stl",
+      "bytes": 1483684,
+      "sha256": "b4b828041b7f9162bba560bb6018e383450b289e4212f195d54a8e150a7bf441",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rfoot.stl",
+      "source_sha256": "b4b828041b7f9162bba560bb6018e383450b289e4212f195d54a8e150a7bf441",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rhand.stl",
+      "bytes": 528484,
+      "sha256": "f02f94646d3cc80b9b28efdbc66172232b82d2d6e53ccce14b5b8117130c7402",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rhand.stl",
+      "source_sha256": "f02f94646d3cc80b9b28efdbc66172232b82d2d6e53ccce14b5b8117130c7402",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rhip.stl",
+      "bytes": 1500084,
+      "sha256": "87cd34fae01c79dc780bfc12d139387429c2054e33ebcfbe71f434a5dba6f4bc",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rhip.stl",
+      "source_sha256": "87cd34fae01c79dc780bfc12d139387429c2054e33ebcfbe71f434a5dba6f4bc",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rlap.stl",
+      "bytes": 661884,
+      "sha256": "1ff321fd7f1d13b317f9eba5f4d556f9cb541ecd33016073b300a2e02e94f4c2",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rlap.stl",
+      "source_sha256": "1ff321fd7f1d13b317f9eba5f4d556f9cb541ecd33016073b300a2e02e94f4c2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rleg1.stl",
+      "bytes": 1500084,
+      "sha256": "d0ca07919c35351de8ae2669ce3b156852df552b35b31c5c3066c7687c463868",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rleg1.stl",
+      "source_sha256": "d0ca07919c35351de8ae2669ce3b156852df552b35b31c5c3066c7687c463868",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rleg2.stl",
+      "bytes": 1500084,
+      "sha256": "6c8304e3eccf92b625c5af4203587db8789b72ec02a6f30ffc1a0c9fc1e72c38",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rleg2.stl",
+      "source_sha256": "6c8304e3eccf92b625c5af4203587db8789b72ec02a6f30ffc1a0c9fc1e72c38",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/Rshoulder.stl",
+      "bytes": 1500084,
+      "sha256": "b44f27f9a6b9371d90c602b96d61d64fd352fc66d3f1a9179549632d407c6dd6",
+      "source_label": "BoosterTrain/assets/MOS/meshes/Rshoulder.stl",
+      "source_sha256": "b44f27f9a6b9371d90c602b96d61d64fd352fc66d3f1a9179549632d407c6dd6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/body.stl",
+      "bytes": 1500084,
+      "sha256": "734353bf134fa15e9cd1aa554b1c02956ba9cf375c7581d4f770454fa24eb20e",
+      "source_label": "BoosterTrain/assets/MOS/meshes/body.stl",
+      "source_sha256": "734353bf134fa15e9cd1aa554b1c02956ba9cf375c7581d4f770454fa24eb20e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/head.stl",
+      "bytes": 1149484,
+      "sha256": "1bcda454c8fd8aa162fba43abd43a7f257fb939391703b70f222b61c6b6faff5",
+      "source_label": "BoosterTrain/assets/MOS/meshes/head.stl",
+      "source_sha256": "1bcda454c8fd8aa162fba43abd43a7f257fb939391703b70f222b61c6b6faff5",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/meshes/neck.stl",
+      "bytes": 1500084,
+      "sha256": "a6acc10eb544de10905bc6478a656888886ec61170089199c4507ad7e02b80b8",
+      "source_label": "BoosterTrain/assets/MOS/meshes/neck.stl",
+      "source_sha256": "a6acc10eb544de10905bc6478a656888886ec61170089199c4507ad7e02b80b8",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "robots/mos/training/mos_training.json",
+      "bytes": 2617,
+      "sha256": "e18b444c40ce80b22f5abdbe0df4516e2a48251a9c958d30c8354b13d6c72163",
+      "source_label": "BoosterTrain/assets/MOS/mos_training.json",
+      "source_sha256": "79704326e89ad6ed2d9beff194e9d1b5951dcb1da096e9d489e00e62141bf143",
+      "unchanged_bytes": false
+    },
+    {
+      "path": "robots/mos/training/mos_training.urdf",
+      "bytes": 23242,
+      "sha256": "7c75902c9ee01e0d5b2a79235f77698db0ee12c2ee360d076b26fddbf530c7b6",
+      "source_label": "BoosterTrain/assets/MOS/mos_training.urdf",
+      "source_sha256": "7c75902c9ee01e0d5b2a79235f77698db0ee12c2ee360d076b26fddbf530c7b6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "media/k1_dance_front.jpg",
+      "bytes": 31066,
+      "sha256": "22c41742a43d980f19424344f52b49bfc8d6711425fb59b19003b0e08998aef3"
+    },
+    {
+      "path": "media/k1_dance_front_uhd.mp4",
+      "bytes": 6123084,
+      "sha256": "190fd5fe6d8d18371e7963982a3bd7c53205974a89f26e6ecae3bf087183a9bf",
+      "source_label": "BoosterTrain/logs/rsl_rl/k1_dance_8/2026-08-20_20-30-21_l20_gpu1_resume/videos/play_uhd_front/rl-video-step-8.mp4",
+      "source_sha256": "190fd5fe6d8d18371e7963982a3bd7c53205974a89f26e6ecae3bf087183a9bf",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "50/1",
+        "duration": "9.980000",
+        "nb_frames": "499"
+      }
+    },
+    {
+      "path": "media/mos_walk_front.jpg",
+      "bytes": 36968,
+      "sha256": "6d1a31a5caf4da8e27c561e2ffc6a4e6f657c9f06c1aebef63bcc95f36691dbb"
+    },
+    {
+      "path": "media/mos_walk_front_uhd_20s.mp4",
+      "bytes": 23965408,
+      "sha256": "bd8c2b1582f26a9d3b6ee1f9f492bde7ab3ffd478a00dcce2305bd4029427027",
+      "source_label": "BoosterTrain/videos/mos_walk_rigid_v2_front_uhd_20s_20260920_154057/rl-video-step-8.mp4",
+      "source_sha256": "bd8c2b1582f26a9d3b6ee1f9f492bde7ab3ffd478a00dcce2305bd4029427027",
+      "unchanged_bytes": true,
+      "video": {
+        "width": 3840,
+        "height": 2160,
+        "avg_frame_rate": "50/1",
+        "duration": "19.980000",
+        "nb_frames": "999"
+      }
+    }
+  ]
+}

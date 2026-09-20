@@ -1,0 +1,259 @@
+{
+  "source": "motions/gmr/k1_locomotion/run.pkl",
+  "source_sha256": "8f7bdd7571ae30b7574f37d6974c30f1c919293c2fb4af73e80846e55c0a98a5",
+  "source_fps": 29.8159509202454,
+  "output_fps": 50.0,
+  "frames": 133,
+  "sample_span_seconds": 2.64,
+  "training_urdf": "robots/k1/training/K1_22dof.urdf",
+  "gmr_joint_order_model": "robots/k1/retargeting/K1_serial.xml",
+  "align_ground": true,
+  "constant_z_translation_m": 0.08919373561605513,
+  "feet_before": {
+    "left_foot_link": {
+      "min_m": -0.07266325372793721,
+      "max_m": 0.23095421017347229,
+      "median_m": 0.00318628880983534,
+      "fraction_below_ground": 0.48872180451127817,
+      "fraction_within_2cm": 0.6090225563909775,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.8044278014111492
+    },
+    "right_foot_link": {
+      "min_m": -0.08919373561605513,
+      "max_m": 0.18892183615940927,
+      "median_m": -0.010948070841551888,
+      "fraction_below_ground": 0.556390977443609,
+      "fraction_within_2cm": 0.6691729323308271,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.806034250724715
+    },
+    "both_feet_above_2cm_fraction": 0.07518796992481203,
+    "lowest_foot_max_m": 0.03618712109380704
+  },
+  "feet_after": {
+    "left_foot_link": {
+      "min_m": 0.016530485269045367,
+      "max_m": 0.32014794171987426,
+      "median_m": 0.09238003525739852,
+      "fraction_below_ground": 0.0,
+      "fraction_within_2cm": 0.015037593984962405,
+      "near_ground_vertex_xy_speed_mean_m_s": 0.14995675411749407
+    },
+    "right_foot_link": {
+      "min_m": 3.3809274407881063e-09,
+      "max_m": 0.27811556770581125,
+      "median_m": 0.07824566815543069,
+      "fraction_below_ground": 0.0,
+      "fraction_within_2cm": 0.08270676691729323,
+      "near_ground_vertex_xy_speed_mean_m_s": 0.4776286627863508
+    },
+    "both_feet_above_2cm_fraction": 0.9022556390977443,
+    "lowest_foot_max_m": 0.125380852640209
+  },
+  "joint_limits": {
+    "AAHead_yaw": {
+      "min_rad": -0.5243827700614929,
+      "max_rad": 0.1949201077222824,
+      "lower_rad": -1.0,
+      "upper_rad": 1.0,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "ALeft_Shoulder_Pitch": {
+      "min_rad": -0.28561341762542725,
+      "max_rad": 1.2200000286102295,
+      "lower_rad": -3.316,
+      "upper_rad": 1.22,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 11,
+      "outside_0_9_soft_limit_frames": 39
+    },
+    "ARight_Shoulder_Pitch": {
+      "min_rad": 0.021945685148239136,
+      "max_rad": 1.2200000286102295,
+      "lower_rad": -3.316,
+      "upper_rad": 1.22,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 8,
+      "outside_0_9_soft_limit_frames": 48
+    },
+    "Left_Hip_Pitch": {
+      "min_rad": -1.0379056930541992,
+      "max_rad": 0.7367500066757202,
+      "lower_rad": -3.0,
+      "upper_rad": 2.21,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Right_Hip_Pitch": {
+      "min_rad": -1.0943115949630737,
+      "max_rad": 0.6401069164276123,
+      "lower_rad": -3.0,
+      "upper_rad": 2.21,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Head_pitch": {
+      "min_rad": 0.1916723996400833,
+      "max_rad": 0.5832669734954834,
+      "lower_rad": -0.349,
+      "upper_rad": 0.855,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Shoulder_Roll": {
+      "min_rad": -1.591334581375122,
+      "max_rad": -0.9020106196403503,
+      "lower_rad": -1.74,
+      "upper_rad": 1.57,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 2
+    },
+    "Right_Shoulder_Roll": {
+      "min_rad": 0.9907643795013428,
+      "max_rad": 1.6632243394851685,
+      "lower_rad": -1.57,
+      "upper_rad": 1.74,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 21
+    },
+    "Left_Hip_Roll": {
+      "min_rad": -0.3280721604824066,
+      "max_rad": 0.4186325669288635,
+      "lower_rad": -0.4,
+      "upper_rad": 1.57,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 4
+    },
+    "Right_Hip_Roll": {
+      "min_rad": -0.3384402096271515,
+      "max_rad": 0.21597141027450562,
+      "lower_rad": -1.57,
+      "upper_rad": 0.4,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Elbow_Pitch": {
+      "min_rad": -0.30506518483161926,
+      "max_rad": 0.7928493022918701,
+      "lower_rad": -2.27,
+      "upper_rad": 2.27,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Right_Elbow_Pitch": {
+      "min_rad": -0.3605947494506836,
+      "max_rad": 0.5577176809310913,
+      "lower_rad": -2.27,
+      "upper_rad": 2.27,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Hip_Yaw": {
+      "min_rad": -0.2181723266839981,
+      "max_rad": 0.543390691280365,
+      "lower_rad": -1.0,
+      "upper_rad": 1.0,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Right_Hip_Yaw": {
+      "min_rad": -0.4789654016494751,
+      "max_rad": 0.05134332552552223,
+      "lower_rad": -1.0,
+      "upper_rad": 1.0,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Elbow_Yaw": {
+      "min_rad": -1.8887677192687988,
+      "max_rad": -1.1365875005722046,
+      "lower_rad": -2.44,
+      "upper_rad": 0.0,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Right_Elbow_Yaw": {
+      "min_rad": 0.985221266746521,
+      "max_rad": 2.085270643234253,
+      "lower_rad": 0.0,
+      "upper_rad": 2.44,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Knee_Pitch": {
+      "min_rad": 0.14553187787532806,
+      "max_rad": 2.0246920585632324,
+      "lower_rad": 0.0,
+      "upper_rad": 2.23,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Right_Knee_Pitch": {
+      "min_rad": 0.17611993849277496,
+      "max_rad": 2.0665905475616455,
+      "lower_rad": 0.0,
+      "upper_rad": 2.23,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0
+    },
+    "Left_Ankle_Pitch": {
+      "min_rad": -0.7274234294891357,
+      "max_rad": 0.3448939323425293,
+      "lower_rad": -0.87,
+      "upper_rad": 0.345,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 11,
+      "outside_0_9_soft_limit_frames": 17
+    },
+    "Right_Ankle_Pitch": {
+      "min_rad": -0.6794826984405518,
+      "max_rad": 0.3449999988079071,
+      "lower_rad": -0.87,
+      "upper_rad": 0.345,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 15,
+      "outside_0_9_soft_limit_frames": 23
+    },
+    "Left_Ankle_Roll": {
+      "min_rad": -0.23811818659305573,
+      "max_rad": 0.34461039304733276,
+      "lower_rad": -0.345,
+      "upper_rad": 0.345,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 8,
+      "outside_0_9_soft_limit_frames": 12
+    },
+    "Right_Ankle_Roll": {
+      "min_rad": -0.327666312456131,
+      "max_rad": 0.27031657099723816,
+      "lower_rad": -0.345,
+      "upper_rad": 0.345,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 2
+    }
+  },
+  "validation": "passed",
+  "notes": [
+    "One constant translation; no joint clamping or per-frame grounding.",
+    "Near-ground vertex speed is a sliding heuristic, not a contact measurement.",
+    "Flight/floating cannot be distinguished by height alone; inspect reference replay.",
+    "Mesh vertices describe nominal URDF geometry, not PhysX contact offsets."
+  ]
+}

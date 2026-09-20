@@ -1,0 +1,41 @@
+{
+  "source_urdf": "robots/mos/source/urdf/MOS9.2_urdf_0308-4.urdf",
+  "source_sha256": "60ba30cdf199741565b5bfe12ab177296246af090cf9dcef723f5441ad1a6613",
+  "mesh_source": "robots/mos/retargeting/meshes",
+  "mesh_sha256": {
+    "body.stl": "734353bf134fa15e9cd1aa554b1c02956ba9cf375c7581d4f770454fa24eb20e",
+    "neck.stl": "a6acc10eb544de10905bc6478a656888886ec61170089199c4507ad7e02b80b8",
+    "head.stl": "1bcda454c8fd8aa162fba43abd43a7f257fb939391703b70f222b61c6b6faff5",
+    "Rshoulder.stl": "b44f27f9a6b9371d90c602b96d61d64fd352fc66d3f1a9179549632d407c6dd6",
+    "Rarm.stl": "f9266698e13cebd74173ffb595952a54ab375eb3d9ac98d4fe34f4125eb83a85",
+    "Rhand.stl": "f02f94646d3cc80b9b28efdbc66172232b82d2d6e53ccce14b5b8117130c7402",
+    "Lshoulder.stl": "3235d6e04b0720b134f7da48e1c0dfb5b5c874569625848f546b446b48586cb6",
+    "Larm.stl": "d0d6b06c0516a14019dbd897df8567760c77dc9620071ed10deda4c1660dbbc4",
+    "Lhand.stl": "ecb568ef1eb5f82ad9036dde6842144b28a7c8e87a7b006370c4fcaee54b13af",
+    "Rhip.stl": "87cd34fae01c79dc780bfc12d139387429c2054e33ebcfbe71f434a5dba6f4bc",
+    "Rlap.stl": "1ff321fd7f1d13b317f9eba5f4d556f9cb541ecd33016073b300a2e02e94f4c2",
+    "Rleg1.stl": "d0ca07919c35351de8ae2669ce3b156852df552b35b31c5c3066c7687c463868",
+    "Rleg2.stl": "6c8304e3eccf92b625c5af4203587db8789b72ec02a6f30ffc1a0c9fc1e72c38",
+    "Rankle.stl": "b5cee3df7d100b1e4439bad1617f92d191c344addfc2791370b96b0b21d845e7",
+    "Rfoot.stl": "b4b828041b7f9162bba560bb6018e383450b289e4212f195d54a8e150a7bf441",
+    "Lhip.stl": "d8203bc0ebf986882e5017eb3f3be831bba4b880072be6f0c37171e5863c0f3a",
+    "Llap.stl": "32a32a51f308823dbc8727fb0a7ea176007aa77817e47fb00fe03f63e82c023b",
+    "Lleg1.stl": "31d8e035e3d73a69cba43ea8fccf0e5ed20677f1fa3b50509369fa48bd0e44c3",
+    "Lleg2.stl": "4a4303ad68cc6324aef93812f2aef02601b6f048aa09ce335249ded6d897c7bd",
+    "Lankle.stl": "ea70f65c59c1a06d164927efcb2cd3801140e7edc2a35131a68687eca4a60ff4",
+    "Lfoot.stl": "5b8c580b46f8db816068ecdaf8c4fc6a0f97a2ecfdb837e1d7968c3cadae956f"
+  },
+  "training_urdf": "robots/mos/training/mos_training.urdf",
+  "status": "PROVISIONAL SIMULATION ONLY; NOT HARDWARE SPECIFICATIONS",
+  "joint_limits": "All continuous joints changed to revolute +/-pi, 20 rad/s, 60 Nm URDF ceiling.",
+  "actuators": "Actual simulation group torque limits and PD gains are in assets/robots/mos.py.",
+  "geometry": "Copied GMR visual meshes; original collision mesh origins retained. PhysX convex hull per link.",
+  "self_collision": false,
+  "preserved": [
+    "link inertials",
+    "joint origins",
+    "joint axes",
+    "visual/collision origins",
+    "materials"
+  ]
+}

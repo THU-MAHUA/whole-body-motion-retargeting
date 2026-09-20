@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whole-body-motion-retargeting"
+version = "0.1.0"
+description = "MOS and Booster K1 motion retargeting and reference-tracking research"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+authors = [{name = "MAAROUF MOHAMED", email = "mohamed.maarouf05@gmail.com"}]
+dependencies = []
+
+[project.optional-dependencies]
+retargeting = [
+  "torch", "numpy", "scipy>=1.14", "mujoco", "mink", "qpsolvers[proxqp]",
+  "loop-rate-limiters", "rich", "tqdm", "smplx==0.1.28", "trimesh",
+  "fast-simplification", "pillow", "imageio[ffmpeg]",
+]
+training = [
+  "numpy<2", "scipy", "trimesh", "psutil", "tensorboard", "imageio[ffmpeg]",
+  "pyyaml", "packaging", "onnx", "onnxscript",
+]
+test = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/THU-MAHUA/whole-body-motion-retargeting"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["wbmr*", "general_motion_retargeting*", "booster_train*", "booster_assets*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+general_motion_retargeting = ["ik_configs/*.json", "utils/lafan_vendor/license.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "retargeting/tools", "training/scripts/tests"]
+addopts = "--import-mode=importlib"
+pythonpath = ["retargeting/tools", "retargeting", "training/scripts"]

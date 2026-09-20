@@ -1,0 +1,12 @@
+{
+  "frames": 228,
+  "fps": 29.901639344262296,
+  "max_stance_corner_height_m": 3.379017693427855e-08,
+  "max_stance_tilt_deg": 8.537736462515939e-07,
+  "max_stance_drift_from_contact_start_m": 3.327286708812898e-08,
+  "min_mesh_height_m": -3.4357516831562407e-12,
+  "max_joint_step_rad": 0.5073886042846731,
+  "max_joint_step_frame": 190,
+  "max_joint_step_name": "Ll1_Ll2",
+  "status": "passed"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "kinematic_comparison_only",
+  "training_compatible": false,
+  "source": "external://human/ACCAD/Female1Walking_c3d/B3_-_walk1_stageii.npz",
+  "baseline": "motions/gmr/mos_rigid_torso/walk_v2.pkl",
+  "frames": 228,
+  "fps": 29.901639344262296,
+  "waist_type": "ball, 3 rotational DOFs, WXYZ quaternion",
+  "waist_pivot": "original MOS body origin",
+  "chest_source": "SMPL-X spine3 global orientation",
+  "root_and_all_leg_joint_values_identical": true,
+  "max_foot_position_difference_m": 0.0,
+  "max_stance_corner_height_m": 3.3738540891614655e-08,
+  "max_stance_tilt_deg": 8.537736462515939e-07,
+  "min_sole_mesh_height_m": -4.504466244448224e-12,
+  "max_waist_rotation_deg": 18.619796412946588,
+  "waist_peak_abs_xyz_euler_deg": [
+    7.0978949226860415,
+    14.967954038198092,
+    16.310224434763345
+  ],
+  "chest_tracking_rms_deg": {
+    "rigid": 12.637347517174225,
+    "virtual": 5.703064120931294e-15
+  },
+  "max_upper_joint_step_rad": 0.09345232995689774,
+  "preserved_sha256": {
+    "robots/mos/retargeting/MOS9.2.xml": "daf443acc09a9924d9e0d47a76aab49581a0604dd9c9e7b30b188f15f7642f3b",
+    "motions/gmr/mos_rigid_torso/walk_v2.pkl": "5817607d66f51ec1536e309ecb3e677259f748fee1b1fdc083fd340d94a81f7b",
+    "motions/gmr/mos_rigid_torso/walk_v2.contacts.json": "6ce72521388857f485a3dbadc78020940e8174afb1de8d2265f2835f9bc49359",
+    "external://human/ACCAD/Female1Walking_c3d/B3_-_walk1_stageii.npz": "fbe0bb5edd4e72c711777c00fee107e6038830659a8097f1ca53bbe449a3eedf"
+  },
+  "limitations": [
+    "Invented waist: cannot execute this motion on real MOS or train its existing asset from it.",
+    "Pelvis and legs are frozen to the rigid-torso candidate to isolate torso freedom, not reoptimized.",
+    "Chest follows the human exactly by construction; this is not evidence of improved balance.",
+    "Torso mesh is intact and pivots above the hip chains; this is not a CAD design for a waist.",
+    "Invented pelvis inertia is only a compiler placeholder; no physics is simulated.",
+    "Original knee transition and nonperiodic clip boundary remain unchanged.",
+    "Upper-body self-collision and physical joint limits are not validated."
+  ]
+}

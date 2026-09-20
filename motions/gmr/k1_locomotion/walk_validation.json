@@ -1,0 +1,49 @@
+{
+  "name": "walk",
+  "frames": 227,
+  "fps": 29.901639344262296,
+  "duration_seconds": 7.59155701754386,
+  "dof_count": 22,
+  "finite": true,
+  "unit_quaternions": true,
+  "max_joint_limit_violation_rad": 1.1091155290466215e-17,
+  "min_foot_collision_box_height_m": [
+    -0.053917402054888555,
+    -0.05805557311275537
+  ],
+  "max_foot_collision_box_height_m": [
+    0.0303092548645227,
+    0.038348228638080684
+  ],
+  "frames_with_foot_below_minus_1cm": 107,
+  "frames_with_both_feet_above_2cm": 1,
+  "near_floor_foot_center_speed_median_m_s": 0.08653457453872097,
+  "root_horizontal_path_length_m": 4.438467171704536,
+  "joint_ranges_rad": {
+    "ALeft_Shoulder_Pitch": [
+      -0.31513690540388584,
+      0.695220483532303
+    ],
+    "ARight_Shoulder_Pitch": [
+      -0.18793245941724826,
+      0.5182279863075705
+    ],
+    "Left_Knee_Pitch": [
+      -6.010969310190142e-18,
+      0.9103903594130975
+    ],
+    "Right_Knee_Pitch": [
+      -1.1091155290466215e-17,
+      0.9048767002838551
+    ]
+  },
+  "render_mean_frame_pixel_change": 2.3232377415959933,
+  "notes": [
+    "Raw export: no per-frame ground offset or postprocessing.",
+    "Existing exporter omits aligned source frame zero.",
+    "Foot heights use collision boxes, not mesh vertices.",
+    "Near-floor foot-center speed is a sliding heuristic, not a contact estimate.",
+    "Both-feet-above-floor counts alone do not establish natural running flight.",
+    "Kinematic checks do not validate dynamic stability or hardware execution."
+  ]
+}

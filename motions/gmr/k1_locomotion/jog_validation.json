@@ -1,0 +1,49 @@
+{
+  "name": "jog",
+  "frames": 42,
+  "fps": 29.826589595375722,
+  "duration_seconds": 1.408139534883721,
+  "dof_count": 22,
+  "finite": true,
+  "unit_quaternions": true,
+  "max_joint_limit_violation_rad": 0.0,
+  "min_foot_collision_box_height_m": [
+    -0.058834954238810494,
+    -0.0752522786893048
+  ],
+  "max_foot_collision_box_height_m": [
+    0.055961722119231797,
+    0.03552699493152964
+  ],
+  "frames_with_foot_below_minus_1cm": 37,
+  "frames_with_both_feet_above_2cm": 0,
+  "near_floor_foot_center_speed_median_m_s": 0.4388589165534773,
+  "root_horizontal_path_length_m": 2.1072962916614957,
+  "joint_ranges_rad": {
+    "ALeft_Shoulder_Pitch": [
+      -0.29369728470359774,
+      1.049052900520565
+    ],
+    "ARight_Shoulder_Pitch": [
+      -0.520756234847318,
+      1.028294456525395
+    ],
+    "Left_Knee_Pitch": [
+      0.09031669365420292,
+      1.6989801893550447
+    ],
+    "Right_Knee_Pitch": [
+      0.3142502558804191,
+      1.7331617514626467
+    ]
+  },
+  "render_mean_frame_pixel_change": 3.834147452997967,
+  "notes": [
+    "Raw export: no per-frame ground offset or postprocessing.",
+    "Existing exporter omits aligned source frame zero.",
+    "Foot heights use collision boxes, not mesh vertices.",
+    "Near-floor foot-center speed is a sliding heuristic, not a contact estimate.",
+    "Both-feet-above-floor counts alone do not establish natural running flight.",
+    "Kinematic checks do not validate dynamic stability or hardware execution."
+  ]
+}

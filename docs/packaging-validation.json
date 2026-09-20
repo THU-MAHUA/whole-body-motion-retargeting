@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-20",
+  "unit_tests": {
+    "passed": 42
+  },
+  "runtime": {
+    "mos": {
+      "supplied_checkpoint_playback_steps": 100,
+      "training_iterations": 2,
+      "training_envs": 64,
+      "checkpoint_reload_steps": 24,
+      "tensorboard_scalar_values": 74,
+      "all_scalars_finite": true
+    },
+    "k1": {
+      "supplied_checkpoint_playback_steps": 100,
+      "training_iterations": 2,
+      "training_envs": 64,
+      "checkpoint_reload_steps": 24,
+      "tensorboard_scalar_values": 74,
+      "all_scalars_finite": true
+    }
+  },
+  "original_files_hash_checked_unchanged": 339,
+  "human_recordings_included": false,
+  "full_training_started": false,
+  "mos_reconversion_max_abs_difference": {
+    "fps": 0.0,
+    "joint_pos": 0.0,
+    "joint_vel": 0.0,
+    "body_pos_w": 0.0,
+    "body_quat_w": 0.0,
+    "body_lin_vel_w": 0.0,
+    "body_ang_vel_w": 0.0
+  },
+  "staged_audit": {
+    "files": 311,
+    "bytes": 207544731,
+    "largest_file": "media/mos_walk_front_uhd_20s.mp4",
+    "no_file_over_100_MiB": true,
+    "local_markdown_links_resolve": true,
+    "absolute_old_workspace_paths": 0,
+    "credential_pattern_matches": 0
+  }
+}

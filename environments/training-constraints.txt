@@ -1,0 +1,18 @@
+# Python 3.11. Install Isaac Sim / Isaac Lab separately before this project.
+torch==2.7.0
+numpy==1.26.4
+scipy==1.17.1
+trimesh==4.11.5
+psutil==5.9.8
+tensorboard==2.20.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+pyyaml==6.0.3
+packaging==23.2
+onnx==1.20.1
+onnxscript==0.6.2
+gymnasium==1.2.1
+rsl-rl-lib==5.0.1
+isaaclab==0.54.3
+isaaclab-rl==0.5.0
+isaacsim==5.1.0.0

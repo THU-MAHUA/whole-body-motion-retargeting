@@ -1,0 +1,301 @@
+{
+  "source": "motions/gmr/mos_flat_feet/walk.pkl",
+  "source_sha256": "893e5ed88eb16f9604cb5654ee395a7ff8ff1641eef51fb682af13fec0f79995",
+  "source_fps": 29.901639344262296,
+  "output_fps": 50.0,
+  "frames": 380,
+  "sample_span_seconds": 7.58,
+  "training_urdf": "robots/mos/training/mos_training.urdf",
+  "gmr_joint_order_model": "robots/mos/retargeting/MOS9.2.xml",
+  "align_ground": true,
+  "constant_z_translation_m": 0.0040014497262901155,
+  "feet_before": {
+    "Lfoot": {
+      "min_m": -0.0040014497262901155,
+      "max_m": 0.04965389226349494,
+      "median_m": -4.5766167441500805e-05,
+      "fraction_below_ground": 0.034210526315789476,
+      "fraction_within_2cm": 0.9,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.3543843765850192
+    },
+    "Rfoot": {
+      "min_m": -0.003285674218646034,
+      "max_m": 0.059027367551640675,
+      "median_m": -3.895369267249704e-05,
+      "fraction_below_ground": 0.018421052631578946,
+      "fraction_within_2cm": 0.8842105263157894,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.6272308990795583
+    },
+    "both_feet_above_2cm_fraction": 0.0,
+    "lowest_foot_max_m": -8.681712361513494e-08
+  },
+  "feet_after": {
+    "Lfoot": {
+      "min_m": 3.792577377148554e-09,
+      "max_m": 0.05365534578236243,
+      "median_m": 0.003955683626135693,
+      "fraction_below_ground": 0.0,
+      "fraction_within_2cm": 0.8868421052631579,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.346896945938874
+    },
+    "Rfoot": {
+      "min_m": 0.0007157793002214585,
+      "max_m": 0.06302882107050817,
+      "median_m": 0.003962496100904697,
+      "fraction_below_ground": 0.0,
+      "fraction_within_2cm": 0.8657894736842106,
+      "near_ground_vertex_xy_speed_mean_m_s": 1.6231606043799762
+    },
+    "both_feet_above_2cm_fraction": 0.0,
+    "lowest_foot_max_m": 0.0040013667017438775
+  },
+  "joint_limits": {
+    "b_Lh": {
+      "min_rad": -0.6980324387550354,
+      "max_rad": 0.3959966003894806,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 7.1126909255981445,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "b_Ls": {
+      "min_rad": -0.06961041688919067,
+      "max_rad": 0.6423451900482178,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 3.9333152770996094,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "b_Rh": {
+      "min_rad": -0.4998164176940918,
+      "max_rad": 0.7072080373764038,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 6.310966491699219,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "b_Rs": {
+      "min_rad": -0.4786241352558136,
+      "max_rad": -0.20138661563396454,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.6760408878326416,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "b_n": {
+      "min_rad": -0.04900446906685829,
+      "max_rad": 0.29575714468955994,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.4040782451629639,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Lh_Ll": {
+      "min_rad": -0.27069002389907837,
+      "max_rad": 0.05133427679538727,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.4329699277877808,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ls_La": {
+      "min_rad": 1.0253818035125732,
+      "max_rad": 1.5190365314483643,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.8185615539550781,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Rh_Rl": {
+      "min_rad": -0.055774908512830734,
+      "max_rad": 0.24932222068309784,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.7532166242599487,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Rs_Ra": {
+      "min_rad": -1.3755452632904053,
+      "max_rad": -1.0357661247253418,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.5834182500839233,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "n_h": {
+      "min_rad": 0.01497693546116352,
+      "max_rad": 0.5218012928962708,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 1.2947275638580322,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ll_Ll1": {
+      "min_rad": -0.2475166916847229,
+      "max_rad": 0.1460225135087967,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 3.0241615772247314,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "La_Lh": {
+      "min_rad": -0.9945992827415466,
+      "max_rad": -0.41831809282302856,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 2.321135997772217,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Rl_Rl1": {
+      "min_rad": -0.11315477639436722,
+      "max_rad": 0.19013740122318268,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 2.674363136291504,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ra_Rh": {
+      "min_rad": 0.5611836910247803,
+      "max_rad": 1.1235390901565552,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 2.2631168365478516,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ll1_Ll2": {
+      "min_rad": -1.2739506959915161,
+      "max_rad": 0.2292785346508026,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 13.736566543579102,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Rl1_Rl2": {
+      "min_rad": -0.15158134698867798,
+      "max_rad": 1.2600313425064087,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 11.497079849243164,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ll2_La": {
+      "min_rad": -0.43398624658584595,
+      "max_rad": 0.6016207933425903,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 5.903796195983887,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Rl2_Ra": {
+      "min_rad": -0.6746460199356079,
+      "max_rad": 0.3758923411369324,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 5.899896144866943,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "La_Lf": {
+      "min_rad": -0.08016268163919449,
+      "max_rad": 0.22038833796977997,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 3.8527257442474365,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    },
+    "Ra_Rf": {
+      "min_rad": -0.21057629585266113,
+      "max_rad": 0.16465936601161957,
+      "lower_rad": -3.141592653589793,
+      "upper_rad": 3.141592653589793,
+      "hard_limit_violation_frames": 0,
+      "within_0_01rad_of_hard_limit_frames": 0,
+      "outside_0_9_soft_limit_frames": 0,
+      "max_abs_velocity_rad_s": 3.1370747089385986,
+      "velocity_limit_rad_s": 20.0,
+      "velocity_limit_exceeded_frames": 0
+    }
+  },
+  "validation": "passed",
+  "notes": [
+    "One constant translation; no joint clamping or per-frame grounding.",
+    "Near-ground vertex speed is a sliding heuristic, not a contact measurement.",
+    "Flight/floating cannot be distinguished by height alone; inspect reference replay.",
+    "Mesh vertices describe nominal URDF geometry, not PhysX contact offsets."
+  ]
+}
