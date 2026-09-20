@@ -51,7 +51,10 @@ has the requested GitHub remote configured. The initial HTTPS
 On September 20, 2026, the maintainer subsequently completed an authenticated
 dry-run and confirmed public redistribution permission for the included assets.
 See [NOTICE](../NOTICE.md) for the scope of this confirmation. Publication
-status is recorded in `packaging-validation.json`.
+status is recorded in `packaging-validation.json`. Public upload succeeded on
+September 20, 2026. GitHub's API confirmed the repository is public and all
+312 file hashes matched local commit `c8986cc`, including both selected
+checkpoints and both requested demo videos.
 
 ## Reproduce
 

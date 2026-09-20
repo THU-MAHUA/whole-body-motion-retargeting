@@ -41,7 +41,11 @@
     "requested_original_bytes_preserved": true
   },
   "publication": {
-    "uploaded": false,
+    "uploaded": true,
+    "published_on": "2026-09-20",
+    "public_repository": "THU-MAHUA/whole-body-motion-retargeting",
+    "verified_artifact_commit": "c8986cc88859bb5e39d788498b97a42f78e346a0",
+    "remote_file_hashes_matched": 312,
     "asset_permissions": "maintainer confirmed on 2026-09-20; see NOTICE.md",
     "git_https_dry_run": "maintainer reported successful authenticated dry-run on 2026-09-20"
   },
